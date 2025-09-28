@@ -86,7 +86,7 @@ Teams can **register** for the competition through the **official website.**
 
 # 2. Competition General
 
-1. The competition consists of 4 phases:
+1. The competition consists of 5 phases:
   - **Phase 0**: Video submission demonstrating obstacle avoidance capability
   - **Phase 1**: Registration and inspection
   - **Phase 2**: Mapping and practice sessions (mapping, regulated practice, open practice)
@@ -105,9 +105,7 @@ Teams can **register** for the competition through the **official website.**
 
 3. The submission must demonstrate the vehicle completing **more than two laps** on the track while **avoiding static or dynamic obstacles**.
 
-4. Due date is Oct. 31th and submit to **uj7050@gmail.com**.
-
-5. Please adhere to the deadline.
+4. Please adhere to the deadline.
 
 ## 2.1 Vehicle Specifications
 **Vehicle Specifications** only allows vehicles that meet the following constraints:
