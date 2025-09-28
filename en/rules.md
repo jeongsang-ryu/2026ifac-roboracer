@@ -131,7 +131,7 @@ Teams can **register** for the competition through the **official website.**
   10. _Battery_:
     **4s LiPo battery** or **3S or lower**. Only one 4S battery or lower cell combinations allowed (e.g., 2s + 2s allowed).
   11. _Detection Box_:
-    Vehicles must be easily detectable by opponents' LiDAR. Therefore, vehicles must occupy at least **12×12cm** space on all horizontal planes between **10-30cm** from the ground.
+    Vehicles must be easily detectable by opponent's LiDAR. Therefore, vehicles must occupy at least **12×12cm** space on all horizontal planes between **10-30cm** from the ground.
   12. _Foam Bumper_:
     Bumpers must be soft to minimize damage. These two components (detection box and foam bumper) must be attached when there are two or more vehicles on the track.
   13. _Other Sensors_:
