@@ -137,11 +137,9 @@ Teams can **register** for the competition through the **official website.**
   13. _Other Sensors_:
     Other sensors (IMU, encoders, custom electronic speed controllers) are allowed. Indoor GPS sensors (e.g., Marvelmind) are **not allowed**.
 
-## 2.2 Track and Racing Environment
+## 2.2 Track & racing environment
 
-The competition will be held at Songdo Convensia in Incheon. The characteristics of the environment where the track will be built are:
-- The track size is 20x10m.
-- The surface is carpeted material.
+The competition will take place at BEXCO in Busan. The characteristics of the environment where the track will be built are:
 
 <!-- 1. The surface is flat and reflective. Therefore, LiDAR beams may reflect from the ground and measure the surrounding area rather than the ground. Similarly, depth cameras have problems with proper ground detection.
 2. The room is surrounded by windows and “glass walls”. The windows will be covered by non-transparent material up to 50 cm from the ground to improve the perception. The room is bright, and the Sun can shine into it.
@@ -149,10 +147,14 @@ The competition will be held at Songdo Convensia in Incheon. The characteristics
 4. The track will fit into the area of around the size of 25×10 m.
 5. The track can be mapped in either the training sessions on each day or in the qualification session of each team. We are not providing a dedicated time slot for teams to map the track. Since many teams using SLAM algorithm or vision-based localization techniques, a dedicated **Map Creation** or **Mapping** session is not provided for the teams. -->
 
+
 <!-- 1. The surface is flat and covered with rugs. 
 2. The room is a segmented space that uses a gable wall for parts of the auditorium. Since there is no window on the wall, there is no external light coming in, and it is all composed of non-transparent materials.
 3. The track border is constructed from one air pipes of 50 cm diameters. They are made from polyester and metal, secured with cable tie and masking tape. Keep in mind that there can be a gap between the pipes through which the LiDAR beams can pass.
+4. The track will fit into the area of around the size of 20×10 m.
 5. We will allocate a **mapping** time slot for each team approximately for 5 minutes, depending on the scale of the competition. -->
+
+TBA
 
 ## 2.3 Inspection
 
