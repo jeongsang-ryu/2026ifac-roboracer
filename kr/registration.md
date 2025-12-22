@@ -19,6 +19,10 @@ base_url: registration.html
 경주 참가신청 및 자세한 정보를 보려면 오리엔테이션 및 정보 세션에 등록하세요.
 (Note : 팀원 중 1명은 [IFAC 2026](https://www.ifac2026.org/)에 등록하셔야 참가 가능합니다.)
 
+| Category | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
+|:---|:---|:---|:---|
+| Competition Participant | € 100 | € 120 | € 140 |
+
 <center class="actions">
 	<a href=" " class="button">경주 참가 신청</a>
 </center>
