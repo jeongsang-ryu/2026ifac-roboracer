@@ -5,7 +5,7 @@ section: about
 language: ko-KR
 base_url: index.html
 
-h2_title: 2026 Roboracer Grand Prix Competition
+h2_title: 29th Roboracer Autonomous Racing Competition
 
 ---
 
@@ -44,7 +44,7 @@ ROBORACER Grand Prix는 연구원, 엔지니어 및 자율 시스템 엔지니�
   });
 </script>
 
-IFAC 2026에서 열리는 2026 Roboracer Grand Prix Competition에 참가하는 팀은 주어진 사양에 따라 1:10 규모의 자율 주행 자동차를 제작하고 대회 목표를 달성하기 위한 소프트웨어를 작성합니다.
+IFAC 2026에서 열리는 29th Roboracer Autonomous Racing Competition에 참가하는 팀은 주어진 사양에 따라 1:10 규모의 자율 주행 자동차를 제작하고 대회 목표를 달성하기 위한 소프트웨어를 작성합니다.
 <br>
 <br>
 IFAC 2026는 대면 경쟁으로 대회를 진행합니다.

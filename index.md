@@ -4,7 +4,7 @@ layout: index _init
 section: about
 language: en-US
 base_url: index.html
-h2_title: 2026 Roboracer Grand Prix Competition
+h2_title: 29th Roboracer Autonomous Racing Competition
 
 ---
 
@@ -42,7 +42,7 @@ ROBORACER Grand Prix is a competition organized by an international community of
   });
 </script>
 
-The teams participating in 2026 Roboracer Grand Prix Competition at IFAC 2026 will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition.
+The teams participating in 29th Roboracer Autonomous Racing Competition at IFAC 2026 will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition.
 <br>
 <br>
 IFAC 2026 will be held as an in-person competition.
