@@ -6,18 +6,14 @@ language: ko-KR
 base_url: registration.html
 ---
 
-이 대회는 모든 수준의 사람이 참가할 수 있으며,  누구든지 이 대회에 참가하는 것을 환영합니다. 한 팀은 여러 명의 팀원으로 구성될 수 있으며, 한 사람만 있는 팀도 허용됩니다.
-직접 경기에 참가하는 팀은 스스로 ROBORACER 자동차를 제작하고 사용해야 합니다.
-
-
-**구글 폼으로 신청하기**
+이 대회는 모든 수준의 사람이 참가할 수 있으며, 누구든지 이 대회에 참가하는 것을 환영합니다. 한 팀은 여러 명의 팀원으로 구성될 수 있으며, 한 사람만 있는 팀도 허용됩니다. 직접 경기에 참가하는 팀은 스스로 ROBORACER 자동차를 제작하고 사용해야 합니다.
 
 <!-- ***4월 30일 오픈 예정*** -->
-
-**경기 참가자 용**
-
+<!--
 경주 참가신청 및 자세한 정보를 보려면 오리엔테이션 및 정보 세션에 등록하세요.
-(Note : 팀장 및 팀원 모두 [IFAC 2026](https://www.ifac2026.org/)에 등록하셔야 참가 가능합니다.)
+(Note : 팀장 및 팀원 모두 [IFAC 2026](https://www.ifac2026.org/)에 등록하셔야 참가 가능합니다.) -->
+아래 등록 박스를 클릭하여 팀 정보를 등록해 주세요.
+여기서 제공하신 팀 명단을 기반으로 대회 전체를 준비하고 관리합니다.
 
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
@@ -25,26 +21,27 @@ base_url: registration.html
 
 <center class="actions">
 	<a href=" " class="button">경주 참가 신청</a>
+
 </center>
-<center><strong>등록은 3월 1일부터 시작됩니다.</strong></center>
+<center><strong>등록은 2월 1일부터 시작됩니다.</strong></center>
 <br>
+여기서의 등록과 함께, 팀은 [대회](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG)에 참가하기 위해 IFAC 2026에도 등록해야 합니다.
+모든 팀원은 IFAC에 등록해야 하며, 대회 전용 등록 옵션을 이용할 수 있습니다.
 
 
+대회에 대한 자세한 정보는 곧 개최될 온라인 [오리엔테이션](.)에 참석하세요. 또한 Slack을 통해 참여하여 질문이 있으시면 남겨주세요.
 
 <center class="actions">
-	<a href=" " class="button">slack 통한 질문</a>
+	<a href=" " class="button">Slack 통한 질문</a>
 </center>
 
 
-<!-- Have to Change -->
+<!-- 경기 관람자 신청 양식
 
-
-<!-- **일반 참가자 용**
-
-경주 관람신청 및 자세한 정보를 보려면 오리엔테이션 및 정보 세션에 등록하세요.
+경기에 참가하지 않고 관람만 하고 싶으시면 이 링크를 통해 등록하세요.
 
 <center class="actions">
-	<a href="https://docs.google.com/forms/d/e/1FAIpQLSf5aheoenohT5te_PutaAnLSBmPwK3EKB7EVOtFLEEu3Jk1gQ/viewform?usp=sf_link" class="button">일반 참가 신청</a>
+	<a href="https://docs.google.com/forms/d/e/1FAIpQLSf5aheoenohT5te_PutaAnLSBmPwK3EKB7EVOtFLEEu3Jk1gQ/viewform?usp=sf_link" class="button">관람 신청</a>
 </center> -->
 
 
@@ -62,7 +59,8 @@ base_url: registration.html
 |:---|:---|:---|
 |.|.|.|
 
-<!-- |AIML|Jeju National University|Junhyeok Yang, Juho Kim, Byeongyeon Kim, Suhwan Kim, Yuncheol Yang, Junhyeok Choi, Jiwook Park|
+<!-- Previous Competition Participants (2024)
+|AIML|Jeju National University|Junhyeok Yang, Juho Kim, Byeongyeon Kim, Suhwan Kim, Yuncheol Yang, Junhyeok Choi, Jiwook Park|
 |DSPlay|Sangmyung University|Jihoon Park, Hyundong Lee, Jungmin Hwang, Woojin Lee|
 |KMUTT|King Mongkut's University of Technology Thonburi|Benjamas Panomruttanarug, Phuriphat Chomchuenphrueksa, Peeratchai Chamwong, Rut Huttapong, Pongsakorn Tabtimthai|
 |SEA:ME|Kookmin University|Hamin An, Minsung Ko, Jihwan Kim, Juyeon Park, hyeonjin Cha, Jaeheon Kim|

@@ -8,15 +8,12 @@ base_url: registration.html
 
 This competition is open for everyone of all levels, everyone is welcome to participate in this competition. A team can consist of multiple teammates. Teams with only one person are also allowed. Teams that take part in the in-person competition need to provide and build an ROBORACER car by themselves.
 
-
-**Google Site Registration**
-
 <!-- ***It will be open by April 30th*** -->
-
-A form for race participants
-
+<!-- 
 For race registration and more information, sign up to participate in orientation and information session.
-(Note: Both the team leader and team members must register with [IFAC 2026](https://www.ifac2026.org/) to participate.)
+(Note: Both the team leader and team members must register with [IFAC 2026](https://www.ifac2026.org/) to participate.) -->
+Click the following registration box and enroll your team information. 
+We will prepare and manage the whole competition based on the team roster you provide here.
 
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
@@ -26,12 +23,20 @@ For race registration and more information, sign up to participate in orientatio
 	<a href=" " class="button">Registration for a race</a>
 
 </center>
-<center><strong>Registration opens on March 1st.</strong></center>
+<center><strong>Registration opens on Febrary 1st.</strong></center>
 <br>
+Together with registration here, the team must also register IFAC 2026 to participate the [competition](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG). 
+Note that every team member should register IFAC, for which the competition-only registration option is available.
+
+
+For more information about the competition, attend the online [orientation](.) to be held soon. 
+Also join us through Slack and leave questions if any.
+
 
 <center class="actions">
 	<a href=" " class="button">QnA through slack</a>
 </center>
+
 
 <!-- A form for race observers
 
