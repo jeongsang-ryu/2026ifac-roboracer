@@ -16,7 +16,7 @@ This competition is open for everyone of all levels, everyone is welcome to part
 A form for race participants
 
 For race registration and more information, sign up to participate in orientation and information session.
-(Note: One of the team members must register with [IFAC 2026](https://www.ifac2026.org/) to participate.)
+(Note: Both the team leader and team members must register with [IFAC 2026](https://www.ifac2026.org/) to participate.)
 
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|

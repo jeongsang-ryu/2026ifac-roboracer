@@ -17,7 +17,7 @@ base_url: registration.html
 **경기 참가자 용**
 
 경주 참가신청 및 자세한 정보를 보려면 오리엔테이션 및 정보 세션에 등록하세요.
-(Note : 팀원 중 1명은 [IFAC 2026](https://www.ifac2026.org/)에 등록하셔야 참가 가능합니다.)
+(Note : 팀장 및 팀원 모두 [IFAC 2026](https://www.ifac2026.org/)에 등록하셔야 참가 가능합니다.)
 
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
