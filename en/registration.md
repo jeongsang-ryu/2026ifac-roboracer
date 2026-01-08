@@ -31,6 +31,7 @@ The corresponding registration fees are set as shown in the table below.
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
 | € 100 | € 120 | € 140 |
+
 <br>
 <br>
 <center class="actions">
