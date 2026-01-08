@@ -31,6 +31,10 @@ base_url: registration.html
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
 | € 100 | € 120 | € 140 |
+<br>
+<br>
+<br>
+<br>
 
 <center class="actions">
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg" class="button">Slack 통한 질문</a>
