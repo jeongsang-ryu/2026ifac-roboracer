@@ -12,12 +12,8 @@ This competition is open for everyone of all levels, everyone is welcome to part
 <!-- 
 For race registration and more information, sign up to participate in orientation and information session.
 (Note: Both the team leader and team members must register with [IFAC 2026](https://www.ifac2026.org/) to participate.) -->
-Click the following registration box and enroll your team information. 
-We will prepare and manage the whole competition based on the team roster you provide here.
 
-| Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
-||:---|:---|:---|
-| € 100 | € 120 | € 140 |
+
 
 <center class="actions">
 	<a href=" " class="button">Registration for a race</a>
@@ -25,18 +21,27 @@ We will prepare and manage the whole competition based on the team roster you pr
 </center>
 <center><strong>Registration opens on Febrary 1st.</strong></center>
 <br>
-Together with registration here, the team must also register IFAC 2026 to participate the [competition](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG). 
+
+Click the following registration box and enroll your team information. 
+We will prepare and manage the whole competition based on the team roster you provide here.
+
+| Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
+||:---|:---|:---|
+| € 100 | € 120 | € 140 |
+
+Together with registration here, the team must also register [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG) to participate the competition. 
 Note that every team member should register IFAC, for which the competition-only registration option is available.
+
+The corresponding registration fee is set in the following table.
+
+For more information about the competition, attend the online [orientation](.) to be held soon. 
+Also join us through Slack and leave questions if any.
 
 
 <center class="actions">
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg " class="button">QnA through slack</a>
 </center>
 
-
-
-For more information about the competition, attend the online [orientation](.) to be held soon. 
-Also join us through Slack and leave questions if any.
 
 <!-- A form for race observers
 
@@ -54,7 +59,7 @@ If you want to observe without participating in the game, please registration th
 
 # Participants
 
-If you have registered for participation but the list below is not updated, please contact us at TBD@unist.ac.kr.
+If you have registered for participation but the list below is not updated, please contact us at ryujs@unist.ac.kr.
 
 | TEAM NAME | AFFILIATION | TEAM MEMBERS |
 |:---|:---|:---|

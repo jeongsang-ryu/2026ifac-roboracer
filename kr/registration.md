@@ -12,12 +12,9 @@ base_url: registration.html
 <!--
 경주 참가신청 및 자세한 정보를 보려면 오리엔테이션 및 정보 세션에 등록하세요.
 (Note : 팀장 및 팀원 모두 [IFAC 2026](https://www.ifac2026.org/)에 등록하셔야 참가 가능합니다.) -->
-아래 등록 박스를 클릭하여 팀 정보를 등록해 주세요.
-여기서 제공하신 팀 명단을 기반으로 대회 전체를 준비하고 관리합니다.
 
-| Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
-||:---|:---|:---|
-| € 100 | € 120 | € 140 |
+
+
 
 <center class="actions">
 	<a href=" " class="button">경주 참가 신청</a>
@@ -25,16 +22,24 @@ base_url: registration.html
 </center>
 <center><strong>등록은 2월 1일부터 시작됩니다.</strong></center>
 <br>
-여기서의 등록과 함께, 팀은 [대회](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG)에 참가하기 위해 IFAC 2026에도 등록해야 합니다.
+등록 박스를 클릭하여 팀 정보를 등록해 주세요.
+여기서 제공하신 팀 명단을 기반으로 대회 전체를 준비하고 관리합니다.
+
+| Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
+||:---|:---|:---|
+| € 100 | € 120 | € 140 |
+
+
+여기서의 등록과 함께, 팀은 대회에 참가하기 위해 [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG)에도 등록해야 합니다.
 모든 팀원은 IFAC에 등록해야 하며, 대회 전용 등록 옵션을 이용할 수 있습니다.
 
+해당 등록비는 다음 표를 참조해 주시기 바랍니다.
 
+대회에 대한 자세한 정보는 곧 개최될 온라인 [오리엔테이션](.)에 참석하세요. 또한 Slack을 통해 참여하여 질문이 있으시면 남겨주세요.
 
 <center class="actions">
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg" class="button">Slack 통한 질문</a>
 </center>
-
-대회에 대한 자세한 정보는 곧 개최될 온라인 [오리엔테이션](.)에 참석하세요. 또한 Slack을 통해 참여하여 질문이 있으시면 남겨주세요.
 
 
 <!-- 경기 관람자 신청 양식
@@ -54,7 +59,7 @@ base_url: registration.html
 
 # 참가자
 
-만약 참가 신청을 했지만 아래 목록이 업데이트되지 않은 경우 TBD@unist.ac.kr로 문의하세요.
+만약 참가 신청을 했지만 아래 목록이 업데이트되지 않은 경우 ryujs@unist.ac.kr로 문의하세요.
 
 | TEAM NAME | AFFILIATION | TEAM MEMBERS |
 |:---|:---|:---|
