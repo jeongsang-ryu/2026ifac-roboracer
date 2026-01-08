@@ -13,15 +13,11 @@ base_url: registration.html
 경주 참가신청 및 자세한 정보를 보려면 오리엔테이션 및 정보 세션에 등록하세요.
 (Note : 팀장 및 팀원 모두 [IFAC 2026](https://www.ifac2026.org/)에 등록하셔야 참가 가능합니다.) -->
 
-
-
-
 <center class="actions">
 	<a href=" " class="button">경주 참가 신청</a>
 
 </center>
 <center><strong>등록은 2월 1일부터 시작됩니다.</strong></center>
-<br>
 등록 박스를 클릭하여 팀 정보를 등록해 주세요.
 여기서 제공하신 팀 명단을 기반으로 대회 전체를 준비하고 관리합니다.
 
@@ -33,7 +29,6 @@ base_url: registration.html
 ||:---|:---|:---|
 | € 100 | € 120 | € 140 |
 
-<br>
 <br>
 <br>
 

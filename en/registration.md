@@ -20,8 +20,6 @@ For race registration and more information, sign up to participate in orientatio
 
 </center>
 <center><strong>Registration opens on Febrary 1st.</strong></center>
-<br>
-
 Click the registration box above and enroll your team information. 
 We will prepare and manage the whole competition based on the team roster you provide here.
 
