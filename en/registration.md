@@ -30,8 +30,7 @@ We will prepare and manage the whole competition based on the team roster you pr
 | € 100 | € 120 | € 140 |
 
 Together with registration here, the team must also register [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG) to participate the competition. 
-Note that every team member should register IFAC, for which the competition-only registration option is available.
-
+Note that every team member should register IFAC, for which the competition-only registration option is available.<br>
 The corresponding registration fee is set in the following table.
 
 For more information about the competition, attend the online [orientation](.) to be held soon. 
