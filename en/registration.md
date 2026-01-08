@@ -25,14 +25,14 @@ For race registration and more information, sign up to participate in orientatio
 Click the registration box above and enroll your team information. 
 We will prepare and manage the whole competition based on the team roster you provide here.
 
-Together with registration here, the team must also register for [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG) to participate in the competition. 
-Note that every team member should register for IFAC, for which the competition-only registration option is available. 
-
-The corresponding registration fees are set as shown in the following table.
-
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
 | € 100 | € 120 | € 140 |
+
+Together with registration here, the team must also register for [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG) to participate in the competition. 
+Note that every team member should register for IFAC, for which the competition-only registration option is available. 
+
+The corresponding registration fees are set as shown in the table above.
 
 For more information about the competition, attend the online [orientation](.) to be held soon. 
 Also join us through Slack and leave questions if any.
