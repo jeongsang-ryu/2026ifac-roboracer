@@ -17,7 +17,7 @@ base_url: registration.html
 	<a href=" " class="button">경주 참가 신청</a>
 
 </center>
-<center>**등록은 2월 1일부터 시작됩니다.**</center>
+<center><b>등록은 2월 1일부터 시작됩니다.</b></center>
 등록 박스를 클릭하여 팀 정보를 등록해 주세요.
 여기서 제공하신 팀 명단을 기반으로 대회 전체를 준비하고 관리합니다.
 
