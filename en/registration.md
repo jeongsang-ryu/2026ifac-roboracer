@@ -22,8 +22,8 @@ For race registration and more information, sign up to participate in orientatio
 <center><b>Registration opens on Febrary 1st.</b></center>
 Click the registration box above and enroll your team information. 
 We will prepare and manage the whole competition based on the team roster you provide here.
-<br>
 
+<br>
 Together with registration here, the team must also register for [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG) to participate in the competition. 
 Note that every team member should register for IFAC, for which the competition-only registration option is available.<br>
 The corresponding registration fees are set as shown in the table below.
