@@ -21,6 +21,8 @@ base_url: registration.html
 등록 박스를 클릭하여 팀 정보를 등록해 주세요.
 여기서 제공하신 팀 명단을 기반으로 대회 전체를 준비하고 관리합니다.
 
+<br>
+
 여기서의 등록과 함께, 팀은 대회에 참가하기 위해 [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG)에도 등록해야 합니다.
 모든 팀원은 IFAC에 등록해야 하며, 대회 전용 등록 옵션을 이용할 수 있습니다.<br>
 해당 등록비는 아래 표를 참조해 주시기 바랍니다.
