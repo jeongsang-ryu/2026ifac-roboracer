@@ -29,11 +29,12 @@ base_url: registration.html
 모든 팀원은 IFAC에 등록해야 하며, 대회 전용 등록 옵션을 이용할 수 있습니다.
 
 
-대회에 대한 자세한 정보는 곧 개최될 온라인 [오리엔테이션](.)에 참석하세요. 또한 Slack을 통해 참여하여 질문이 있으시면 남겨주세요.
 
 <center class="actions">
-	<a href=" " class="button">Slack 통한 질문</a>
+	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg" class="button">Slack 통한 질문</a>
 </center>
+
+대회에 대한 자세한 정보는 곧 개최될 온라인 [오리엔테이션](.)에 참석하세요. 또한 Slack을 통해 참여하여 질문이 있으시면 남겨주세요.
 
 
 <!-- 경기 관람자 신청 양식

@@ -11,7 +11,7 @@ base_url: timeline.html
 
 | DATE | IN-PERSON COMPETITION |
 |:---|:---:|
-| Mar 1st | [참가자 등록 시작]( ) |
+| Feb 1st | [참가자 등록 시작]( ) |
 | TBD <br> 19:00 KST | 오리엔테이션 <br> [오리엔테이션 슬라이드]() <br> 대회 소개 및 QnA |
 | June 30th <br> 23:59 KST | 등록 마감 |
 | Aug 24th | 현장 팀 등록 및 공식 연습 세션 |
