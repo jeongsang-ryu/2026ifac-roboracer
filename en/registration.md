@@ -12,8 +12,6 @@ This competition is open for everyone of all levels, everyone is welcome to part
 <!-- 
 For race registration and more information, sign up to participate in orientation and information session.
 (Note: Both the team leader and team members must register with [IFAC 2026](https://www.ifac2026.org/) to participate.) -->
-
-
 <br>
 <center class="actions">
 	<a href=" " class="button">Registration for a race</a>
