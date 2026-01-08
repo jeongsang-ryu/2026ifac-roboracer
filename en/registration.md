@@ -19,7 +19,8 @@ For race registration and more information, sign up to participate in orientatio
 	<a href=" " class="button">Registration for a race</a>
 
 </center>
-<center><strong>Registration opens on Febrary 1st.</strong></center>
+<center>**Registration opens on Febrary 1st.**</center>
+<br>
 Click the registration box above and enroll your team information. 
 We will prepare and manage the whole competition based on the team roster you provide here.
 
@@ -30,15 +31,12 @@ The corresponding registration fees are set as shown in the table below.
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
 | € 100 | € 120 | € 140 |
-
 <br>
 <br>
-<br>
-
 <center class="actions">
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg " class="button">QnA through slack</a>
 </center>
-
+<br>
 For more information about the competition, attend the online [orientation](.) to be held soon. 
 Also join us through Slack and leave questions if any.
 

@@ -17,7 +17,7 @@ base_url: registration.html
 	<a href=" " class="button">경주 참가 신청</a>
 
 </center>
-<center><strong>등록은 2월 1일부터 시작됩니다.</strong></center>
+<center>**등록은 2월 1일부터 시작됩니다.**</center>
 등록 박스를 클릭하여 팀 정보를 등록해 주세요.
 여기서 제공하신 팀 명단을 기반으로 대회 전체를 준비하고 관리합니다.
 
@@ -28,14 +28,12 @@ base_url: registration.html
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
 | € 100 | € 120 | € 140 |
-
 <br>
 <br>
-
 <center class="actions">
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg" class="button">Slack 통한 질문</a>
 </center>
-
+<br>
 대회에 대한 자세한 정보는 곧 개최될 온라인 [오리엔테이션](.)에 참석하세요. 또한 Slack을 통해 참여하여 질문이 있으시면 남겨주세요.
 
 <!-- 경기 관람자 신청 양식
