@@ -33,6 +33,8 @@ Note that every team member should register IFAC, for which the competition-only
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg " class="button">QnA through slack</a>
 </center>
 
+
+
 For more information about the competition, attend the online [orientation](.) to be held soon. 
 Also join us through Slack and leave questions if any.
 
