@@ -30,7 +30,7 @@ base_url: registration.html
 | € 100 | € 120 | € 140 |
 
 <br>
-<br>
+
 <center class="actions">
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg" class="button">Slack 통한 질문</a>
 </center>

@@ -20,7 +20,6 @@ For race registration and more information, sign up to participate in orientatio
 
 </center>
 <center><b>Registration opens on Febrary 1st.</b></center>
-<br>
 Click the registration box above and enroll your team information. 
 We will prepare and manage the whole competition based on the team roster you provide here.
 
@@ -33,7 +32,7 @@ The corresponding registration fees are set as shown in the table below.
 | € 100 | € 120 | € 140 |
 
 <br>
-<br>
+
 <center class="actions">
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg " class="button">QnA through slack</a>
 </center>
