@@ -23,8 +23,7 @@ We will prepare and manage the whole competition based on the team roster you pr
 
 <br>
 Together with registration here, the team must also register for [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG) to participate in the competition. 
-Note that every team member should register for IFAC, for which the competition-only registration option is available.<br>
-The corresponding registration fees are set as shown in the table below.
+Note that every team member should register for IFAC, for which the competition-only registration option is available.<br>The corresponding registration fees are set as shown in the table below.
 
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
