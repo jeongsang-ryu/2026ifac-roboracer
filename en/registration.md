@@ -7,12 +7,7 @@ base_url: registration.html
 ---
 
 This competition is open for everyone of all levels, everyone is welcome to participate in this competition. A team can consist of multiple teammates. Teams with only one person are also allowed. Teams that take part in the in-person competition need to provide and build an ROBORACER car by themselves.
-
-<!-- ***It will be open by April 30th*** -->
-<!-- 
-For race registration and more information, sign up to participate in orientation and information session.
-(Note: Both the team leader and team members must register with [IFAC 2026](https://www.ifac2026.org/) to participate.) -->
-
+<br>
 <center class="actions">
 	<a href=" " class="button">Registration for a race</a>
 
@@ -34,7 +29,7 @@ Note that every team member should register for IFAC, for which the competition-
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg " class="button">QnA through slack</a>
 </center>
 <br>
-For more information about the competition, attend the online [orientation](.) to be held soon. 
+For more information about the competition, attend the online [orientation]( ) to be held soon. 
 Also join us through Slack and leave questions if any.
 
 <!-- A form for race observers

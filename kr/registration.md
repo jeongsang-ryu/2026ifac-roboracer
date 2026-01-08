@@ -7,12 +7,7 @@ base_url: registration.html
 ---
 
 이 대회는 모든 수준의 사람이 참가할 수 있으며, 누구든지 이 대회에 참가하는 것을 환영합니다. 한 팀은 여러 명의 팀원으로 구성될 수 있으며, 한 사람만 있는 팀도 허용됩니다. 직접 경기에 참가하는 팀은 스스로 ROBORACER 자동차를 제작하고 사용해야 합니다.
-
-<!-- ***4월 30일 오픈 예정*** -->
-<!--
-경주 참가신청 및 자세한 정보를 보려면 오리엔테이션 및 정보 세션에 등록하세요.
-(Note : 팀장 및 팀원 모두 [IFAC 2026](https://www.ifac2026.org/)에 등록하셔야 참가 가능합니다.) -->
-
+<br>
 <center class="actions">
 	<a href=" " class="button">경주 참가 신청</a>
 
@@ -34,7 +29,7 @@ base_url: registration.html
 	<a href="https://join.slack.com/t/ifacroboracer/shared_invite/zt-3mgo5vzhf-nBkfFiawyHtFCDK6JS6Peg" class="button">Slack 통한 질문</a>
 </center>
 <br>
-대회에 대한 자세한 정보는 곧 개최될 온라인 [오리엔테이션](.)에 참석하세요. 또한 Slack을 통해 참여하여 질문이 있으시면 남겨주세요.
+대회에 대한 자세한 정보는 곧 개최될 온라인 [오리엔테이션]( )에 참석하세요. 또한 Slack을 통해 참여하여 질문이 있으시면 남겨주세요.
 
 <!-- 경기 관람자 신청 양식
 
