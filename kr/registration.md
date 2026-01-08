@@ -7,6 +7,7 @@ base_url: registration.html
 ---
 
 이 대회는 모든 수준의 사람이 참가할 수 있으며, 누구든지 이 대회에 참가하는 것을 환영합니다. 한 팀은 여러 명의 팀원으로 구성될 수 있으며, 한 사람만 있는 팀도 허용됩니다. 직접 경기에 참가하는 팀은 스스로 ROBORACER 자동차를 제작하고 사용해야 합니다.
+
 <br>
 <center class="actions">
 	<a href=" " class="button">경주 참가 신청</a>
