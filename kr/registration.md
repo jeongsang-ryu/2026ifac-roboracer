@@ -21,6 +21,7 @@ base_url: registration.html
 
 </center>
 <center><strong>등록은 2월 1일부터 시작됩니다.</strong></center>
+<br>
 등록 박스를 클릭하여 팀 정보를 등록해 주세요.
 여기서 제공하신 팀 명단을 기반으로 대회 전체를 준비하고 관리합니다.
 
@@ -31,7 +32,7 @@ base_url: registration.html
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
 | € 100 | € 120 | € 140 |
-<br>
+
 <br>
 <br>
 <br>
