@@ -27,45 +27,9 @@ h2, h3, h4, h5, h6 {
 *Last Updated: 2025-09-28*
 
 <!-- *수정일자: 2022-10-15* -->
-
-<!-- 
-1. Video submission 
-1.1 Video submission exmaple
-2. Car inspection - chassis, tires, detection box, foam bumper, motor. battery, main computation unit, lidar, camera, other sensors
-3. mapping & practice, mapping, regulated practice, open practice
-4. rules 
-4.1 Rules for Qualifying and Head-to-head
-All computations must be performed onboard!!
-No protests regarding Wi-Fi will be accepted.
-● Strictly prohibit manual (human) emergency brake
-● No data must be transmitted to the vehicle during the race.
-Exceptions
-  Joystick
-    At the start or re-start(for start)
-    For emergency stop (ex. After crash, reverse driving, remaining stuck in an obstacle for more than 5
-    seconds)
-    For entering Pit-stop zone on the Manual Drive Zone for pit-stop
-  Remote computer
-    When your car is out of track
-    When your car is in pit-stop region
-    When your car needs re-localization(only for giving initial-guess to your localization algorithm)
-Pit-stop
-Re-entering
-● Any H/W repairment & maintenance inside the track is prohibited (not even pit-stop).
-
-5. Phase 3: Qualification
-● Time Trials
-● Two goals (two leaderboards):
-6. Phase 4: Head-to-head race
-● Head-to-head Race
-● Random Static Obstacle Areas
-Crashing
-Penalty cases in Head-to-head race
-Warning cases in Head-to-head race
-
-7.Key Point Summary
- -->
  
+ TBA
+<!--  
 **Table of content**
 - ToC
 {:toc}
@@ -80,9 +44,7 @@ This competition will be held as an in-person competition from **August 24th (Mo
 ROBORACER Autonomous Racing Competition Schedule: **August 24th (Monday) ~ 27th (Thursday), 2026**
 
 Teams can **register** for the competition through the **official website.** 
-
-<!-- The preferred communication method with the organizers is the ICCAS2024 channel on [ROBORACER GRAND PRIX-teams Slack](https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA). -->
-
+ 
 
 # 2. Competition General
 
@@ -109,9 +71,7 @@ Teams can **register** for the competition through the **official website.**
 
 ## 2.1 Vehicle Specifications
 **Vehicle Specifications** only allows vehicles that meet the following constraints:
-
-  <!-- 1. The vehicle is constructed according to the official [bill of materials](https://f1tenth.readthedocs.io/en/stable/getting_started/build_car/bom.html). The teams are allowed to use components of similar or lower specifications. -->
-
+ 
   1. Vehicles must be built according to ROBORACER guidelines, but alternative parts may be allowed as long as they comply with regulations. Unclear or ambiguous items must be confirmed in advance with race organizers.
   2. Each vehicle is inspected as part of qualifying to determine if it meets criteria. If criteria are not met, the vehicle cannot participate.
   3. **The ROBORACER Autonomous Racing Competition emphasizes algorithmic performance. Hardware designed to provide an unfair advantage is strictly prohibited.**.
@@ -140,20 +100,7 @@ Teams can **register** for the competition through the **official website.**
 ## 2.2 Track & racing environment
 
 The competition will take place at BEXCO in Busan. The characteristics of the environment where the track will be built are:
-
-<!-- 1. The surface is flat and reflective. Therefore, LiDAR beams may reflect from the ground and measure the surrounding area rather than the ground. Similarly, depth cameras have problems with proper ground detection.
-2. The room is surrounded by windows and “glass walls”. The windows will be covered by non-transparent material up to 50 cm from the ground to improve the perception. The room is bright, and the Sun can shine into it.
-3. The track border is constructed from one air pipes of 33 cm diameters. They are made from aluminium and metal, secured with plastic/wodden holders. Keep in mind that there can be a gap between the pipes through which the LiDAR beams can pass.
-4. The track will fit into the area of around the size of 25×10 m.
-5. The track can be mapped in either the training sessions on each day or in the qualification session of each team. We are not providing a dedicated time slot for teams to map the track. Since many teams using SLAM algorithm or vision-based localization techniques, a dedicated **Map Creation** or **Mapping** session is not provided for the teams. -->
-
-
-<!-- 1. The surface is flat and covered with rugs. 
-2. The room is a segmented space that uses a gable wall for parts of the auditorium. Since there is no window on the wall, there is no external light coming in, and it is all composed of non-transparent materials.
-3. The track border is constructed from one air pipes of 50 cm diameters. They are made from polyester and metal, secured with cable tie and masking tape. Keep in mind that there can be a gap between the pipes through which the LiDAR beams can pass.
-4. The track will fit into the area of around the size of 20×10 m.
-5. We will allocate a **mapping** time slot for each team approximately for 5 minutes, depending on the scale of the competition. -->
-
+ 
 TBA
 
 ## 2.3 Inspection
@@ -366,4 +313,4 @@ TBA
 </center>
 <center>
 <img src="../images/rules/crash2.png"  style="height: 18vw" />
-</center>
+</center> -->

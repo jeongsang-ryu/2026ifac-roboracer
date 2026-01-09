@@ -26,7 +26,10 @@ h2, h3, h4, h5, h6 {
 
 
 *수정일자: 2025-09-28*
- 
+
+TBA 
+
+<!--  
 **Table of content**
 - ToC
 {:toc}
@@ -41,9 +44,7 @@ h2, h3, h4, h5, h6 {
 **ROBORACER GRAND PRIX 일정: 2026년 8월 24일(월) ~ 27일(목)**
 
 팀은 **공식 웹사이트**를 통해 대회에 **등록**할 수 있습니다. 
-
-<!-- The preferred communication method with the organizers is the ICCAS2024 channel on [F1TENTH-teams Slack](https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA). -->
-
+ 
 
 # 2. 대회 일반
 
@@ -102,14 +103,7 @@ h2, h3, h4, h5, h6 {
 대회는 부산 BEXCO에서 열립니다. 트랙이 건설될 환경의 특징은 다음과 같습니다:
 
 TBA
-
-<!-- 1. 표면이 평평하고 러그로 덮여 있습니다. 
-2. 방은 강당 일부에 박공 벽을 사용하는 분할된 공간입니다. 벽에 창문이 없어 외부 빛이 들어오지 않으며, 모두 불투명 재료로 구성되어 있습니다.
-3. 트랙 경계는 직경 50cm의 에어 파이프로 구성됩니다. 폴리에스터와 금속으로 만들어지며, 케이블 타이와 마스킹 테이프로 고정됩니다. 파이프 사이에 라이다 빔이 통과할 수 있는 틈이 있을 수 있음을 유의하시기 바랍니다.
-4. 트랙은 대략 20×10m 크기의 공간에 맞춰집니다.
-5. 대회 규모에 따라 각 팀에 약 5분간의 **맵핑** 시간을 할당합니다. -->
-
-
+ 
 ## 2.3 검사
 
 - 검사의 목적은 자율주행 차량의 하드웨어가 대회 요구사항을 충족하고 환경, 상대방, 사람에게 위험하지 않은지 확인하는 것입니다.
@@ -334,4 +328,4 @@ TBA
 </center>
 <center>
 <img src="../images/rules/crash2.png"  style="height: 18vw" />
-</center>
+</center> -->
