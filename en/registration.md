@@ -10,10 +10,12 @@ This competition is open for everyone of all levels, everyone is welcome to part
 <br>
 <br>
 <center class="actions">
-	<a href=" " class="button">Registration for a race</a>
+	<a href="https://forms.gle/RvSRwHdDqSfyQyvF6" class="button">Registration for a race</a>
 
 </center>
+<br>
 <center><b>Registration opens on Febrary 1st.</b></center>
+<br>
 Click the registration box above and enroll your team information. 
 We will prepare and manage the whole competition based on the team roster you provide here.
 

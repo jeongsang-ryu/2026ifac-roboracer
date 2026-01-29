@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>29th Roboracer Autonomous Racing Competition| ROBORACER GRAND PRIX Rules</title>
+		<title>29th Roboracer Autonomous Racing Competition | ROBORACER GRAND PRIX Rules</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -131,428 +131,493 @@ h2, h3, h4, h5, h6 {
 }
 </style>
 
-<p><em>Date: 2025-09-15</em></p>
-
-<!-- *수정일자: 2022-10-15* -->
-
-<!-- 
-1. Video submission 
-1.1 Video submission exmaple
-2. Car inspection - chassis, tires, detection box, foam bumper, motor. battery, main computation unit, lidar, camera, other sensors
-3. mapping & practice, mapping, regulated practice, open practice
-4. rules 
-4.1 Rules for Qualifying and Head-to-head
-All computations must be performed onboard!!
-No protests regarding Wi-Fi will be accepted.
-● Strictly prohibit manual (human) emergency brake
-● No data must be transmitted to the vehicle during the race.
-Exceptions
-  Joystick
-    At the start or re-start(for start)
-    For emergency stop (ex. After crash, reverse driving, remaining stuck in an obstacle for more than 5
-    seconds)
-    For entering Pit-stop zone on the Manual Drive Zone for pit-stop
-  Remote computer
-    When your car is out of track
-    When your car is in pit-stop region
-    When your car needs re-localization(only for giving initial-guess to your localization algorithm)
-Pit-stop
-Re-entering
-● Any H/W repairment & maintenance inside the track is prohibited (not even pit-stop).
-
-5. Phase 3: Qualification
-● Time Trials
-● Two goals (two leaderboards):
-6. Phase 4: Head-to-head race
-● Head-to-head Race
-● Random Static Obstacle Areas
-Crashing
-Penalty cases in Head-to-head race
-Warning cases in Head-to-head race
-
-7.Key Point Summary
- -->
+<p><em>Last Updated: 2026-01-29</em></p>
 
 <p><strong>Table of content</strong></p>
 <ul id="markdown-toc">
-  <li><a href="#1-general" id="markdown-toc-1-general">1. General</a></li>
+  <li><a href="#1-overview" id="markdown-toc-1-overview">1. Overview</a></li>
   <li><a href="#2-competition-general" id="markdown-toc-2-competition-general">2. Competition General</a>    <ul>
       <li><a href="#20-video-submission" id="markdown-toc-20-video-submission">2.0 Video Submission</a></li>
-      <li><a href="#21-inspection" id="markdown-toc-21-inspection">2.1 Inspection</a></li>
-      <li><a href="#22-track--racing-environment" id="markdown-toc-22-track--racing-environment">2.2 Track &amp; racing environment</a></li>
-      <li><a href="#23-mapping--practice" id="markdown-toc-23-mapping--practice">2.3 Mapping &amp; Practice</a></li>
-      <li><a href="#25-race-rules" id="markdown-toc-25-race-rules">2.5 Race Rules</a>        <ul>
-          <li><a href="#general-rules-for-qualification-and-head-to-head-race" id="markdown-toc-general-rules-for-qualification-and-head-to-head-race">General Rules for Qualification and Head-to-Head Race</a></li>
-          <li><a href="#joystick-rules" id="markdown-toc-joystick-rules">Joystick Rules</a></li>
-          <li><a href="#remote-computer-rules" id="markdown-toc-remote-computer-rules">Remote Computer Rules</a></li>
-          <li><a href="#pit-stop-rules" id="markdown-toc-pit-stop-rules">Pit-stop Rules</a></li>
-          <li><a href="#re-entering-rules" id="markdown-toc-re-entering-rules">Re-entering Rules</a></li>
-          <li><a href="#hardware-maintenance-rules" id="markdown-toc-hardware-maintenance-rules">Hardware Maintenance Rules</a></li>
+      <li><a href="#21-vehicle-class" id="markdown-toc-21-vehicle-class">2.1 Vehicle Class</a></li>
+      <li><a href="#22-track-and-race-environment" id="markdown-toc-22-track-and-race-environment">2.2 Track and Race Environment</a></li>
+      <li><a href="#23-inspection" id="markdown-toc-23-inspection">2.3 Inspection</a></li>
+      <li><a href="#24-mapping-and-practice" id="markdown-toc-24-mapping-and-practice">2.4 Mapping and Practice</a>        <ul>
+          <li><a href="#241-mapping" id="markdown-toc-241-mapping">2.4.1 Mapping</a></li>
+          <li><a href="#242-practice" id="markdown-toc-242-practice">2.4.2 Practice</a></li>
         </ul>
       </li>
-      <li><a href="#26-qualification-time-trial" id="markdown-toc-26-qualification-time-trial">2.6 Qualification (Time Trial)</a>        <ul>
-          <li><a href="#261-definitions" id="markdown-toc-261-definitions">2.6.1 Definitions</a></li>
-          <li><a href="#262-general" id="markdown-toc-262-general">2.6.2 General</a></li>
+      <li><a href="#25-pit-stop" id="markdown-toc-25-pit-stop">2.5 Pit Stop</a>        <ul>
+          <li><a href="#251-general" id="markdown-toc-251-general">2.5.1 General</a></li>
+          <li><a href="#251-entry" id="markdown-toc-251-entry">2.5.1 Entry</a></li>
+          <li><a href="#252-exit" id="markdown-toc-252-exit">2.5.2 Exit</a></li>
+        </ul>
+      </li>
+      <li><a href="#26-qualification-mission-execution-time-trial" id="markdown-toc-26-qualification-mission-execution-time-trial">2.6 Qualification (Mission Execution, Time Trial)</a>        <ul>
+          <li><a href="#261-general" id="markdown-toc-261-general">2.6.1 General</a></li>
+          <li><a href="#262-qualifying-1-q1" id="markdown-toc-262-qualifying-1-q1">2.6.2 Qualifying 1 (Q1)</a></li>
+          <li><a href="#263-qualifying-2-q2" id="markdown-toc-263-qualifying-2-q2">2.6.3 Qualifying 2 (Q2)</a></li>
+          <li><a href="#264-qualifying-3-q3" id="markdown-toc-264-qualifying-3-q3">2.6.4 Qualifying 3 (Q3)</a></li>
+          <li><a href="#265-qualifying-4-q4" id="markdown-toc-265-qualifying-4-q4">2.6.5 Qualifying 4 (Q4)</a></li>
+          <li><a href="#266-static-obstacles" id="markdown-toc-266-static-obstacles">2.6.6 Static Obstacles</a></li>
+          <li><a href="#267-invalid-records" id="markdown-toc-267-invalid-records">2.6.7 Invalid Records</a></li>
+          <li><a href="#268-notes" id="markdown-toc-268-notes">2.6.8 Notes</a></li>
         </ul>
       </li>
       <li><a href="#27-head-to-head-race" id="markdown-toc-27-head-to-head-race">2.7 Head-to-Head Race</a>        <ul>
           <li><a href="#271-general" id="markdown-toc-271-general">2.7.1 General</a></li>
-          <li><a href="#272-random-static-obstacle-areas-and-crashing" id="markdown-toc-272-random-static-obstacle-areas-and-crashing">2.7.2 Random Static Obstacle Areas and Crashing</a>            <ul>
-              <li><a href="#random-static-obstacle-areas" id="markdown-toc-random-static-obstacle-areas">Random Static Obstacle Areas</a></li>
-              <li><a href="#crashing" id="markdown-toc-crashing">Crashing</a></li>
-            </ul>
-          </li>
-          <li><a href="#273-penalty-cases-in-head-to-head-race" id="markdown-toc-273-penalty-cases-in-head-to-head-race">2.7.3 Penalty Cases in Head-to-Head Race</a></li>
-          <li><a href="#274-warning-cases-in-head-to-head-race" id="markdown-toc-274-warning-cases-in-head-to-head-race">2.7.4 Warning Cases in Head-to-Head Race</a>            <ul>
-              <li><a href="#example-cases" id="markdown-toc-example-cases">Example Cases:</a></li>
-            </ul>
-          </li>
-          <li><a href="#275-evaluation" id="markdown-toc-275-evaluation">2.7.5 Evaluation</a></li>
+          <li><a href="#272-objective" id="markdown-toc-272-objective">2.7.2 Objective</a></li>
+          <li><a href="#273-random-static-obstacles" id="markdown-toc-273-random-static-obstacles">2.7.3 Random Static Obstacles</a></li>
+          <li><a href="#274-collision" id="markdown-toc-274-collision">2.7.4 Collision</a></li>
+          <li><a href="#275-notes" id="markdown-toc-275-notes">2.7.5 Notes</a></li>
+        </ul>
+      </li>
+      <li><a href="#28-common-notes-important" id="markdown-toc-28-common-notes-important">2.8 Common Notes (Important!!)</a></li>
+    </ul>
+  </li>
+  <li><a href="#3-warnings-and-penalties" id="markdown-toc-3-warnings-and-penalties">3. Warnings and Penalties</a>    <ul>
+      <li><a href="#31-head-to-head-race" id="markdown-toc-31-head-to-head-race">3.1 Head-to-Head Race</a>        <ul>
+          <li><a href="#311-additional-1-lap" id="markdown-toc-311-additional-1-lap">3.1.1 Additional 1 Lap</a></li>
+          <li><a href="#322-one-warning" id="markdown-toc-322-one-warning">3.2.2 One Warning</a></li>
+          <li><a href="#323-example-cases" id="markdown-toc-323-example-cases">3.2.3 Example Cases</a></li>
         </ul>
       </li>
     </ul>
   </li>
 </ul>
 
-<h3 id="1-general">1. General</h3>
+<h3 id="1-overview">1. Overview</h3>
 
-<p>International ROBORACER Autonomous Racing Competition is a racing competition open to teams of all levels. Competing teams may consist of any number of members; however, each participant should be <strong>a member of only one team</strong>.</p>
+<p>The International ROBORACER Autonomous Racing Competition is a racing event open to teams of all levels. Teams may consist of any number of members; however, each participant must be <strong>a member of only one team</strong>.</p>
 
-<p>This competition will be held as an in-person competition from <strong>August 24th (Monday)</strong> to <strong>August 27th (Thursday)</strong>, <strong>2026</strong>, at <strong>BEXCO</strong> in Busan during <strong>IFAC 2026</strong> (The International Federation of Automatic Control).</p>
+<p>This competition will be held as an in-person competition from <strong>August 24 (Monday)</strong> to <strong>August 27 (Thursday)</strong>, <strong>2026</strong>, at <strong>BEXCO</strong> in Busan during <strong>IFAC 2026</strong>.</p>
 
-<p>ROBORACER Autonomous Racing Competition Schedule: <strong>August 24th (Monday) ~ 27th (Thursday), 2026</strong></p>
+<p><strong>ROBORACER GRAND PRIX Schedule: August 24 (Monday) to 27 (Thursday), 2026</strong></p>
 
-<p>Teams can <strong>register</strong> for the competition through the <strong>official website.</strong></p>
-
-<!-- The preferred communication method with the organizers is the ICCAS2024 channel on [ROBORACER GRAND PRIX-teams Slack](https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA). -->
+<p>Teams may <strong>register</strong> for the competition through the <strong>official website</strong>.</p>
 
 <h3 id="2-competition-general">2. Competition General</h3>
 
-<ol>
-  <li>The competition consists of 5 phases:
+<ul>
+  <li>The competition consists of five phases:
     <ul>
-      <li><strong>Phase 0</strong>: Video submission demonstrating obstacle avoidance capability</li>
+      <li><strong>Phase 0</strong>: Submission of technical materials related to the team’s autonomous driving</li>
       <li><strong>Phase 1</strong>: Registration and inspection</li>
-      <li><strong>Phase 2</strong>: Mapping and practice sessions (mapping, regulated practice, open practice)</li>
-      <li><strong>Phase 3</strong>: Qualification (time trials)</li>
-      <li><strong>Phase 4</strong>: Head-to-head race</li>
+      <li><strong>Phase 2</strong>: Mapping and practice sessions (mapping, official practice, free practice)</li>
+      <li><strong>Phase 3</strong>: Qualification (Mission Execution, Time Trial)</li>
+      <li><strong>Phase 4</strong>: Head-to-Head Race</li>
     </ul>
   </li>
   <li>
-    <p>Teams registered to the in-person competition need to provide and build a car by themselves according to the constraints listed below. In addition, each team must have a unique vehicle (i.e., a research lab may not field six teams with one car).</p>
+    <p>Teams registered for in-person competition must provide and build their own vehicles according to the constraints listed below. In addition, each team must have a unique vehicle (i.e., one lab cannot enter multiple teams with a single vehicle).</p>
   </li>
-  <li>To enhance the quality of future ROBORACER Autonomous Racing competitions, winners of each race are encouraged to release their algorithm code under an open-source license in the <a href="https://github.com/f1tenth">ROBORACER Autonomous Racing Community repository</a> on GitHub.</li>
-</ol>
+  <li>To improve the quality of future ROBORACER competitions, winners of each race are encouraged to open-source their algorithm code under an open-source license in the <a href="https://github.com/f1tenth">ROBORACER Autonomous Racing Community repository</a> on GitHub.</li>
+</ul>
 
 <h4 id="20-video-submission">2.0 Video Submission</h4>
 
-<ol>
+<ul>
   <li>
-    <p>Teams must submit a video demonstrating obstacle avoidance capability before the competition.</p>
+    <p>Teams shall submit technical materials regarding their vehicle during the pre-competition registration process.</p>
   </li>
   <li>
     <p>No specific format is required.</p>
   </li>
   <li>
-    <p>The submission must demonstrate the vehicle completing <strong>more than two laps</strong> on the track while <strong>avoiding static or dynamic obstacles</strong>.</p>
+    <p>The submission must include a summary of the <strong>software and hardware technology</strong> of the team’s autonomous vehicle.</p>
   </li>
   <li>
-    <p>Please adhere to the deadline.</p>
-  </li>
-</ol>
-
-<h4 id="21-inspection">2.1 Inspection</h4>
-
-<ol>
-  <li>
-    <p>The purpose of the Inspection is to check that the hardware of the autonomous cars meets the competition requirements and the cars are not dangerous for the environment, opponents, and people.</p>
-  </li>
-  <li>
-    <p>The car is supposedly built according to instructions, but alternative components may be allowed as long as they comply with the <strong>Rules</strong>. Any unclear or ambiguous points should be checked <strong>in advance</strong> with the race organizers.</p>
-  </li>
-  <li>
-    <p>The team must demonstrate that it is possible to trigger emergency brake through remote human control (<strong>but not for intervening during the race!</strong>).</p>
-  </li>
-  <li>
-    <p>The dedicated time slots for the Mapping and Regulated practice sessions will be designated on a <strong>first-come-first-serve basis</strong>, and only teams that have successfully <strong>completed registration</strong> and <strong>inspection</strong> will be eligible.</p>
-  </li>
-  <li>
-    <p>The inspection of the vehicles is done on the first competition day.</p>
-  </li>
-  <li>
-    <p>The inspection is done by the race referees.</p>
-  </li>
-  <li>
-    <p>The inspection has to be completed before the Time Trials and after significant changes to the cars hardware or algorithms.</p>
-  </li>
-</ol>
-
-<ul>
-  <li>
-    <p><strong>Vehicle Class</strong> allows only cars that meet the following constraints:</p>
-
-    <p><!-- 1. The vehicle is constructed according to the official [bill of materials](https://f1tenth.readthedocs.io/en/stable/getting_started/build_car/bom.html). The teams are allowed to use components of similar or lower specifications. --></p>
-
-    <ol>
-      <li>Each vehicle will be inspected as a part of qualification whether it meets the criteria. In case the criteria are not met, the vehicle cannot participate.</li>
-      <li><strong>The ROBORACER Autonomous Racing Competition emphasizes algorithmic performance. Hardware designed to provide an unfair advantage is strictly prohibited.</strong>.</li>
-      <li><em>Chassis</em>:
- Any chassis listed as <em>1:10 scale</em> car is allowed. Preferably <strong>1:10 Traxxas</strong> (e.g., <a href="https://traxxas.com/products/models/electric/ford-fiesta-st-rally">TRA74054</a>, <a href="https://traxxas.com/products/models/electric/6804Rslash4x4platinum">TRA6804R</a>, <a href="https://traxxas.com/products/models/electric/slash-4x4-tsm">TRA68086</a>), but generally, any chassis within 15% of the Traxxas cars’ dimensions is allowed (238mm ≤ Width ≤ 341mm, 454 mm ≤ Length ≤ 654mm). Both 4WD and 2WD are permitted.</li>
-      <li><em>Tires</em>:
- <strong>No limitations</strong> (Both sponge and rubber are allowed). However, <strong>chemical additives are strictly prohibited</strong>.</li>
-      <li><em>Motor</em>:
- <strong>No limitations</strong> on spec. Only single motor can be used in power-train.</li>
-      <li><em>Battery</em>:
- <strong>4s LiPo Battery</strong> or <strong>lower</strong>. Only one Battery or the combinations of lower-cell cells (Ex: 2s + 2s is allowed).</li>
-      <li><em>Detection Box</em>:
- The car has to be easily perceivable by the opponent’s LiDAR. Therefore, the car must occupy a space of size at least 12×12 cm at every horizontal plane between <strong>10 to 30 cm</strong> above the ground.</li>
-      <li><em>Foam Bumper</em>:
- The bumper has to be soft to minimize the damage. These two components (Detection Box and Foam Bumper) must be attached if more than one car is on the track.</li>
-      <li><em>Main Computation Unit</em>:
- <strong>No limitations</strong>.</li>
-      <li><em>LiDAR</em>:
-Both Hokuyo LiDARs with <strong>0.25° or 0.125°</strong> resolution both are allowed, as well as 30 m range LiDAR. In particular, <strong>3D LiDAR</strong> is also permitted this time (however, please be aware that high-cost 3D LiDAR units may be damaged in high-speed race).</li>
-      <li><em>Camera</em>:
-Both mono camera (e.g. Logitech C270, Logitech C920, Raspberry Pi Camera Module V2, Arducam) and stereo cameras (e.g. Intel Realsense, ZED) are allowed. Cameras that provide additional information such as <strong>detection or VIO results</strong> from onboard processing in camera are <strong>not allowed</strong>. (Depth information is allowed)</li>
-      <li><em>Other sensors</em>:
-Other sensors (IMUs, encoders, custom electronic speed controllers) are allowed. Indoor GPS sensors (e.g. Marvelmind) <strong>are not allowed</strong>.</li>
-    </ol>
+    <p>Please observe the deadline.</p>
   </li>
 </ul>
 
-<h4 id="22-track--racing-environment">2.2 Track &amp; racing environment</h4>
+<h4 id="21-vehicle-class">2.1 Vehicle Class</h4>
+<p><strong>Vehicle Class</strong> only allows vehicles that meet the following constraints:</p>
 
-<p>The competition will take place at BEXCO in Busan. The characteristics of the environment where the track will be built are:</p>
+<ul>
+  <li>Vehicles must be built according to ROBORACER guidelines, but alternative parts may be allowed as long as they comply with regulations. Unclear or ambiguous items must be confirmed in advance with race organizers.</li>
+  <li>Each vehicle is inspected as part of qualifying to determine if it meets criteria. If criteria are not met, the vehicle cannot participate.</li>
+  <li><strong>The ROBORACER competition is an algorithm competition. Hardware that confers an advantage is not permitted.</strong></li>
+  <li><em>Chassis</em>:
+  The race is designed for <strong>1:10 Traxxas</strong> chassis (e.g., TRA74054, TRA6804R). While these chassis are recommended, chassis generally within 15% of Traxxas vehicle dimensions are allowed (238mm &lt;= width &lt;= 341mm, 454mm &lt;= length &lt;= 654mm). Both <strong>4WD and 2WD</strong> are allowed.</li>
+  <li><em>Tires</em>:
+  <strong>No restriction</strong> (both sponge and rubber are permitted). However, <strong>chemical additives are strictly prohibited</strong>.</li>
+  <li><em>Main computing unit</em>:
+  <strong>No restriction</strong>. Only one computing unit may be used.</li>
+  <li><em>LiDAR</em>:
+  <strong>No restriction</strong>. Only one LiDAR sensor may be used. In particular, <strong>3D LiDAR</strong> is permitted.
+  (Please note that expensive 3D LiDAR may be damaged during high-speed racing.)</li>
+  <li><em>Camera</em>:
+  Both a <strong>single camera</strong> (e.g., Logitech C270, Logitech C920, Raspberry Pi Camera Module V2, Arducam) and a <strong>stereo camera</strong> (e.g., Intel Realsense, ZED) are permitted. Cameras that provide additional information via onboard processing, such as <strong>detection</strong> or <strong>VIO results</strong>, are <strong>not permitted</strong>. (Depth information is allowed.)</li>
+  <li><em>Motor</em>:
+  <strong>No restriction</strong>. Only a <strong>single motor</strong> may be used for the powertrain.</li>
+  <li><em>Battery</em>:
+  <strong>4S LiPo battery</strong> or <strong>3S or lower</strong>. Only one 4S battery or a lower-cell combination is allowed (e.g., 2S + 2S is allowed).</li>
+  <li><em>Detection box</em>:
+  The vehicle must be easily detected by the opponent’s LiDAR. Therefore, the vehicle must occupy a space of at least <strong>12 x 12 cm</strong> in any horizontal plane between <strong>10 and 30 cm</strong> above the ground.</li>
+  <li><em>Foam bumper</em>:
+  The bumper must be soft to minimize damage. If two or more vehicles are on the track, these two components (Detection box and foam bumper) must be attached.</li>
+  <li><em>Other sensors</em>:
+  Other sensors (IMU, encoders, custom electronic speed controllers) are allowed. Indoor GPS sensors (e.g., Marvelmind) are <strong>not allowed</strong>.</li>
+</ul>
 
-<!-- 1. The surface is flat and reflective. Therefore, LiDAR beams may reflect from the ground and measure the surrounding area rather than the ground. Similarly, depth cameras have problems with proper ground detection.
-2. The room is surrounded by windows and “glass walls”. The windows will be covered by non-transparent material up to 50 cm from the ground to improve the perception. The room is bright, and the Sun can shine into it.
-3. The track border is constructed from one air pipes of 33 cm diameters. They are made from aluminium and metal, secured with plastic/wodden holders. Keep in mind that there can be a gap between the pipes through which the LiDAR beams can pass.
-4. The track will fit into the area of around the size of 25×10 m.
-5. The track can be mapped in either the training sessions on each day or in the qualification session of each team. We are not providing a dedicated time slot for teams to map the track. Since many teams using SLAM algorithm or vision-based localization techniques, a dedicated **Map Creation** or **Mapping** session is not provided for the teams. -->
+<h4 id="22-track-and-race-environment">2.2 Track and Race Environment</h4>
 
-<!-- 1. The surface is flat and covered with rugs. 
-2. The room is a segmented space that uses a gable wall for parts of the auditorium. Since there is no window on the wall, there is no external light coming in, and it is all composed of non-transparent materials.
-3. The track border is constructed from one air pipes of 50 cm diameters. They are made from polyester and metal, secured with cable tie and masking tape. Keep in mind that there can be a gap between the pipes through which the LiDAR beams can pass.
-4. The track will fit into the area of around the size of 20×10 m.
-5. We will allocate a **mapping** time slot for each team approximately for 5 minutes, depending on the scale of the competition. -->
+<p>The competition will be held at BEXCO in Busan. The characteristics of the environment in which the track will be constructed are as follows:</p>
 
 <p>TBA</p>
 
-<h4 id="23-mapping--practice">2.3 Mapping &amp; Practice</h4>
+<h4 id="23-inspection">2.3 Inspection</h4>
 
-<ol>
-  <li>Mapping: About 5 minutes for each team</li>
-  <li>Practice: <strong>Regulated practice</strong> and <strong>Open Practice</strong></li>
-  <li>We will provide sample obstacles.</li>
-  <li>The dedicated time for Mapping, Regulated practice and Qualification may vary <strong>depending on the number of participating teams</strong>.</li>
-</ol>
-
-<h4 id="25-race-rules">2.5 Race Rules</h4>
-
-<h5 id="general-rules-for-qualification-and-head-to-head-race">General Rules for Qualification and Head-to-Head Race</h5>
-
-<ol>
-  <li>
-    <p><strong>All computational processing must be carried out onboard.!!</strong></p>
-  </li>
-  <li>
-    <p><strong>No protests regarding Wi-Fi will be accepted.</strong> 
-Please ensure that your autonomous system is designed to operate <strong>independently</strong> regardless of Wi-Fi conditions. You may ask teams not participating in the race to turn off their Wi-Fi, but this is purely to facilitate your team’s visualization and debugging, not related to algorithm integrity!</p>
-  </li>
-  <li>
-    <p><strong>Strictly prohibit manual (human) emergency brake</strong></p>
-  </li>
-  <li>
-    <p><strong>No data must be transmitted to the vehicle during the race.</strong></p>
-  </li>
-</ol>
-
-<h5 id="joystick-rules">Joystick Rules</h5>
-<ol>
-  <li>Joystick <strong>use</strong> or joystick <strong>pressing</strong> during the race <strong>is not allowed</strong>.</li>
-  <li>
-    <p>Please change the code for autonomous &lt;-&gt; human control switching from <strong>press and hold</strong> method to <strong>on/off</strong> <strong>toggle</strong> method.</p>
-  </li>
-  <li>Joystick Exceptions:
-    <ul>
-      <li>At the <strong>start</strong> or <strong>re-start</strong> (for start)</li>
-      <li>For <strong>emergency stop</strong> (e.g., after crash, reverse driving, remaining stuck in an obstacle for more than 5 seconds)</li>
-      <li>For entering <strong>pit-stop zone</strong> on the <strong>manual drive zone for pit-stop</strong></li>
-    </ul>
-  </li>
-</ol>
-
-<h5 id="remote-computer-rules">Remote Computer Rules</h5>
-<ol>
-  <li>Computer (<strong>keyboard and mouse</strong>) use during the race <strong>is</strong> <strong>not allowed</strong>.</li>
-  <li>Monitor can only be used for data plots or visualization through Rviz.</li>
-  <li><strong>Only one laptop</strong> can be connected for visualization (e.g., RViz) or debugging purposes.</li>
-</ol>
-
-<p><strong>Remote Computer Exceptions:</strong></p>
 <ul>
-  <li>When your car is <strong>out of track</strong></li>
-  <li>When your car is in <strong>pit-stop region</strong></li>
-  <li>When your car needs re-localization (only for <strong>giving initial-guess</strong> to your localization algorithm)</li>
+  <li>
+    <p>The purpose of inspection is to verify that the hardware of the autonomous vehicle meets competition requirements and does not pose a risk to the environment, opponents, or people.</p>
+  </li>
+  <li>
+    <p>Vehicles must be built according to ROBORACER guidelines, but alternative parts may be allowed as long as they comply with regulations.</p>
+  </li>
+  <li>
+    <p>Teams must demonstrate that they can activate the emergency brake via remote human control (however, <strong>this may not be used for intervention during the race</strong>).</p>
+  </li>
+  <li>
+    <p>Vehicle inspection will be conducted on the first day of the competition.</p>
+  </li>
+  <li>
+    <p>Inspections are performed by the race referees (hereafter, referees).</p>
+  </li>
+  <li>
+    <p>Inspection must be completed <strong>before the Time Trial</strong> and <strong>after any significant changes</strong> to the vehicle’s hardware or algorithm.</p>
+  </li>
 </ul>
 
-<h5 id="pit-stop-rules">Pit-stop Rules</h5>
+<h4 id="24-mapping-and-practice">2.4 Mapping and Practice</h4>
 
+<h5 id="241-mapping">2.4.1 Mapping</h5>
+<ul>
+  <li>Approximately 3 minutes are allocated to each team.</li>
+  <li>This time is exclusive use of the entire track for a single team.</li>
+  <li>This time may be used for mapping, data collection, and practice.</li>
+  <li>If a team does not arrive at its designated time slot, the opportunity is forfeited and no additional time will be provided.</li>
+  <li>Each team may prepare multiple vehicles and use them on the track.</li>
+  <li>Teams without a map file may obtain one from nearby teams, but this is outside the responsibility of the organizers.</li>
+  <li>For this competition, png and yaml files for the track will be provided.</li>
+</ul>
+
+<h5 id="242-practice">2.4.2 Practice</h5>
+<ul>
+  <li>Practice consists of <strong>official practice</strong> and <strong>free practice</strong>.</li>
+  <li>Each team may prepare multiple vehicles, but only one vehicle per team may be on the track.</li>
+  <li>Sample obstacles will be provided.</li>
+  <li>The organizers do not assume responsibility for accidents during practice.</li>
+  <li>However, the team involved in an accident is obligated to explain its algorithm at the request of the referees.</li>
+</ul>
+
+<h4 id="25-pit-stop">2.5 Pit Stop</h4>
 <center>
 <img src="../images/rules/pitstop.png" style="width: 17vw" />
 </center>
 
-<p>This is a designated zone for adjusting parameters <strong>without removing the vehicle from the track.</strong></p>
-<ol>
-  <li>When the vehicle is in the <strong>pit-stop zone</strong>, you can use computer (mouse and keyboard) for parameter updates along with malfunction repair or re-localization.</li>
-  <li>Joystick can only be used in the <strong>manual drive zone</strong> to enter the pit-stop zone.</li>
-  <li><strong>Do not manually drive</strong> with joystick when <strong>restarting</strong> from the pit-stop zone.</li>
-  <li>Manual driving to enter the pit during head-to-head race must <strong>not affect</strong> the opponent vehicle in any way.</li>
-</ol>
-
-<h5 id="re-entering-rules">Re-entering Rules</h5>
+<h5 id="251-general">2.5.1 General</h5>
 <ul>
-  <li>If the vehicle leaves the track for any reason, the vehicle must be placed back <strong>at the location where it crashed</strong>, although the vehicle’s direction can be slightly adjusted.</li>
-  <li>This rule also applies when the vehicle stops for unknown reasons.</li>
-  <li>This rule applies to both qualification and head-to-head race.</li>
-  <li>Taking the vehicle <strong>to arbitrary locations (e.g., starting line)</strong> is strictly <strong>prohibited</strong>.</li>
+  <li>This zone is designated for adjusting parameters <strong>without removing the vehicle from the track</strong>.</li>
+  <li>This zone may be used in both qualifying and the Head-to-Head Race.</li>
+  <li>When the vehicle is in the <strong>pit stop zone</strong>, a computer (mouse and keyboard) may be used to reset position and update parameters.</li>
+  <li>As with the main track, standing in this zone is prohibited.</li>
+  <li>Additionally, after safely entering this zone, removing the vehicle to the island for repair does not constitute a warning.</li>
+  <li>Use of this zone is prohibited in autonomous racing mode.</li>
 </ul>
 
-<h5 id="hardware-maintenance-rules">Hardware Maintenance Rules</h5>
+<h5 id="251-entry">2.5.1 Entry</h5>
 <ul>
-  <li>Any hardware repair and maintenance inside the track is prohibited (not even in pit-stop).</li>
-  <li>Examples: repairing broken parts, sensor recalibration, battery replacement, etc., all maintenance activities</li>
+  <li>Manual driving may be used only to enter the pit stop zone from the <strong>manual driving zone</strong>.</li>
+  <li>During the Head-to-Head Race, manual driving to enter the pit must <strong>not cause harm to the opposing vehicle</strong>.</li>
 </ul>
 
-<h4 id="26-qualification-time-trial">2.6 Qualification (Time Trial)</h4>
+<h5 id="252-exit">2.5.2 Exit</h5>
+<ul>
+  <li>When exiting the pit stop zone to the normal driving area, do <strong>not</strong> use manual driving in any manner.</li>
+  <li>A vehicle exiting the pit stop zone has a duty to protect vehicles in the normal driving area.</li>
+</ul>
 
-<h5 id="261-definitions">2.6.1 Definitions</h5>
-
-<ol>
-  <li>
-    <p><strong>Touching</strong> means moving the object by <strong>less than 5 cm</strong>. Moving by greater distance is called <strong>Crashing</strong>.</p>
-  </li>
-  <li>
-    <p><strong>Moving the track border</strong> by any distance is called <strong>Crashing</strong>.</p>
-  </li>
-</ol>
-
-<!-- 2. The track will contain several *checkpoints*, marked with a line across the track. Starting line is not a checkpoint. -->
-
-<h5 id="262-general">2.6.2 General</h5>
+<h4 id="26-qualification-mission-execution-time-trial">2.6 Qualification (Mission Execution, Time Trial)</h4>
 <center>
-<img src="../images/rules/qualification.png" style="width: 20vw" />
+<img src="../images/rules/qualification.png" style="width: 20vw" /> <!--needs update-->
 </center>
 
-<ol>
-  <li>
-    <p><strong>Time Trials</strong>: The track is same for both practice and race. For <strong>4 minutes</strong> out of the given 6 minutes (This may change depending on total number of teams.)</p>
-  </li>
-  <li>
-    <p><strong>Static Obstacles</strong>: One obstacle will be placed randomly in each obstacle area. (Each obstacle will be smaller than 0.5m x 0.5m). Position of obstacle will be open on the morning of Qualification day and will be fixed for all teams. <strong>Obstacles will be removed in the middle of the qualifying time.</strong></p>
-  </li>
-  <li><strong>Two goals (two leaderboards)</strong>:
+<h5 id="261-general">2.6.1 General</h5>
+<ul>
+  <li>Practice and qualifying use the same track.</li>
+  <li>All stages of qualifying must be completed <strong>within 8 minutes</strong>.
     <ul>
-      <li>Fastest <strong>lap time</strong></li>
-      <li>Highest <strong>number of completed laps</strong> without crashing</li>
+      <li>This may change depending on the total number of participating teams.</li>
     </ul>
   </li>
-  <li><strong>Crash Handling</strong>: As long as the vehicle can continue the race without any intervention in the track, we do not check minor ‘touch’. Only when the vehicle severely crash the track needing manual (human) intervention, we <strong>invalidate that lap time</strong> and <strong>reset the count of completed laps.</strong></li>
-</ol>
+  <li>Qualifying consists of <strong>three missions</strong> and <strong>one achievement condition</strong>, referred to as Q1, Q2, Q3, and Q4 in order.</li>
+  <li>Q1 through Q3 are conducted sequentially and may not be skipped.</li>
+  <li>Final ranking in qualifying is determined in the following order:
+    <ul>
+      <li>Completion of Q4</li>
+      <li>Number of qualifying rounds passed</li>
+      <li>Record of the most recently completed qualifying round</li>
+    </ul>
+  </li>
+  <li>An example of final ranking determination is as follows:
+    <ul>
+      <li>Assume there are 12 teams in total.</li>
+      <li>Assume that 3 teams pass each of Q1, Q2, Q3, and Q4.</li>
+      <li>Among teams that pass Q4, assign places 1 through 3 in order of Q3 record.</li>
+      <li>Among teams that pass Q3, assign places 4 through 6 in order of Q3 record.</li>
+      <li>Repeat in the same manner down to Q1.</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="262-qualifying-1-q1">2.6.2 Qualifying 1 (Q1)</h5>
+<ul>
+  <li>The objective of Q1 is to complete <strong>two laps</strong> of the track <strong>without collisions</strong>.</li>
+  <li>Vehicles that do not pass Q1 are ranked by the number of collision-free laps completed.</li>
+  <li>Vehicles that pass Q1 advance to Q2.</li>
+</ul>
+
+<h5 id="263-qualifying-2-q2">2.6.3 Qualifying 2 (Q2)</h5>
+<ul>
+  <li>The objective of Q2 is to complete <strong>three laps</strong> <strong>without collisions</strong> in the presence of <strong>random obstacles</strong>.</li>
+  <li>Random obstacles for Q2 are placed by referees, with a total of <strong>two</strong> obstacles. Obstacle locations are not announced in advance.</li>
+  <li>Vehicles that do not pass Q2 are ranked by the number of collision-free laps completed.</li>
+  <li>Vehicles that pass Q2 advance to the next qualifying round.</li>
+</ul>
+
+<h5 id="264-qualifying-3-q3">2.6.4 Qualifying 3 (Q3)</h5>
+<ul>
+  <li>The objective of Q3 is to achieve the <strong>minimum lap time</strong> over two minutes on a track without obstacles.</li>
+  <li>The shortest lap time during the two minutes is used as the record.</li>
+</ul>
+
+<h5 id="265-qualifying-4-q4">2.6.5 Qualifying 4 (Q4)</h5>
+<ul>
+  <li>Q4 is an achievement condition.</li>
+  <li>The achievement condition applies at all moments during qualifying.</li>
+  <li>The achievement condition is as follows:
+    <ul>
+      <li><strong>Teams that do not directly or indirectly affect the vehicle throughout the entire qualifying process</strong></li>
+    </ul>
+  </li>
+  <li>Direct or indirect influence is defined as follows:
+    <ul>
+      <li>Touching the vehicle</li>
+      <li>Operating a joystick</li>
+      <li>Touching the keyboard/mouse</li>
+      <li>Operating a computer</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="266-static-obstacles">2.6.6 Static Obstacles</h5>
+<ul>
+  <li>The randomly placed obstacles during Q2 are static obstacles.</li>
+  <li>Each obstacle is smaller than 0.5m x 0.5m.</li>
+  <li>Obstacle locations are randomly placed by referees after Q1 is completed.</li>
+  <li>Obstacles are removed after Q2 is completed.</li>
+  <li>Obstacles are removed safely when the vehicle is not affected.</li>
+</ul>
+
+<h5 id="267-invalid-records">2.6.7 Invalid Records</h5>
+<ul>
+  <li>If a human intervenes and affects the vehicle, the <strong>lap time is invalidated</strong> and <strong>excluded from the number of completed laps</strong>.</li>
+  <li>If there is contact with a static obstacle, the <strong>lap time is invalidated</strong> and <strong>excluded from the number of completed laps</strong>.</li>
+  <li>If there is contact with the track but the vehicle can drive without human intervention, it is considered minor contact and the record remains valid.</li>
+</ul>
+
+<h5 id="268-notes">2.6.8 Notes</h5>
+<ul>
+  <li>Moving a vehicle to an <strong>arbitrary location (e.g., the start line)</strong> during qualifying is <strong>strictly prohibited</strong>.</li>
+  <li>If a vehicle is removed from the track and then reinserted, the vehicle’s orientation may be adjusted slightly, but it must be placed back at the <strong>same location</strong> from which it was removed.</li>
+  <li>If there is contact with the track, even if the record is not invalidated, the track must be <strong>immediately returned to its original position</strong>.</li>
+  <li>If there is contact with an obstacle, it must be immediately returned to its original position.</li>
+  <li><strong>All computation must be performed on the vehicle.</strong></li>
+  <li><strong>Data must not be transmitted to the vehicle during normal driving.</strong></li>
+  <li><strong>Manual (human) emergency braking is strictly prohibited during normal driving.</strong></li>
+  <li>There are two islands within the track area, and one island may have two people.
+    <ul>
+      <li>The island composition will be as follows: (Referees, Team Member 1 in Team 1), (Referees, Team Member 2 in Team 1)</li>
+    </ul>
+  </li>
+</ul>
 
 <h4 id="27-head-to-head-race">2.7 Head-to-Head Race</h4>
-
-<h5 id="271-general">2.7.1 General</h5>
 <center>
-<img src="../images/rules/head_to_head.png" style="width: 13vw" />
+<img src="../images/rules/head_to_head.png" style="width: 13vw" /> <!--needs update-->
 </center>
 
-<ol>
-  <li>
-    <p>The two vehicles start at the different starting lines positioned in opposite directions.</p>
-  </li>
-  <li>
-    <p>In total, two static obstacles are used. One obstacle will be randomly placed in each zone after all teams complete their race preparations. Static obstacles on the track will be removed sometime after the start of the race.</p>
-  </li>
-  <li>
-    <p>Each vehicle must avoid obstacles and the opponent while completing 20 laps within the time limit first.</p>
-  </li>
-  <li>
-    <p>The race will start 10 minutes after the beginning of departure preparation at the latest, regardless of the readiness status of both teams.</p>
-  </li>
-</ol>
-
-<p><strong>Do not stop the race at your team’s discretion without a stop signal from the referee!!</strong></p>
-
-<h5 id="272-random-static-obstacle-areas-and-crashing">2.7.2 Random Static Obstacle Areas and Crashing</h5>
-
-<h6 id="random-static-obstacle-areas">Random Static Obstacle Areas</h6>
-<ol>
-  <li><strong>1 obstacle will be randomly placed within the obstacle area for every race before start.</strong></li>
-  <li>The areas prescribed by red rectangle indicates where static obstacles may be placed.</li>
-  <li>Obstacles will be safely removed after the designated time, ensuring that no vehicles are affected.</li>
-</ol>
-
-<h6 id="crashing">Crashing</h6>
-<p><strong>Track border &amp; Static obstacle</strong></p>
+<h5 id="271-general">2.7.1 General</h5>
 <ul>
-  <li>Recover the track &amp; obstacle</li>
-  <li>If the race can proceed, it should continue without interruption.</li>
+  <li>The two vehicles start from different start lines located in opposite directions.</li>
+  <li>A total of three static obstacles are used. After all teams are ready to race, each participating team places one obstacle, and the referees place the remaining obstacle.</li>
+  <li>Static obstacles on the track are removed when the leading vehicle has completed 10 laps.</li>
+  <li>Each vehicle must complete 20 laps first within the time limit while avoiding obstacles and the opposing vehicle.</li>
+  <li>The race begins no later than 10 minutes after start preparation begins, regardless of each team’s readiness.</li>
 </ul>
 
-<p><strong>Opponent</strong></p>
+<h5 id="272-objective">2.7.2 Objective</h5>
 <ul>
-  <li>If a <strong>complete rear-end collision</strong> occurs, a <strong>1-lap addition penalty</strong> will be given to <strong>real vehicle, the offender vehicle</strong>.</li>
-  <li>If <strong>side-by-side contact</strong> occurs but no fatal accident (such as a spin or crash) follows, the race continues without interruption.</li>
-  <li>The judgment will be made based on the extent of the damage to the victim vehicle.</li>
-  <li>In an incident involving two vehicles, if the affected vehicle is still drivable and the offending vehicle <strong>has not overtaken</strong>, the race will continue as <strong>normal</strong>.</li>
+  <li>Complete 20 laps first.</li>
 </ul>
 
-<p><strong>Judgment made for the incident is at the discretion of the on-site referee and must be respected.</strong></p>
+<h5 id="273-random-static-obstacles">2.7.3 Random Static Obstacles</h5>
+<ul>
+  <li>A total of three <strong>static obstacles</strong> are randomly placed.</li>
+  <li>Each participating team and the referees place one static obstacle each.</li>
+  <li>Each obstacle is smaller than 0.5m x 0.5m.</li>
+  <li>Obstacle locations are placed after both vehicles have completed preparations at the start lines.</li>
+  <li>After obstacles are placed, only the start signal may be transmitted to the vehicles.</li>
+  <li><strong>Obstacles are removed during the race.</strong></li>
+  <li>Obstacles are removed safely when neither vehicle is affected.</li>
+</ul>
 
-<h5 id="273-penalty-cases-in-head-to-head-race">2.7.3 Penalty Cases in Head-to-Head Race</h5>
-
-<p>● <strong>1-lap addition penalty</strong></p>
-<ol>
-  <li>A <strong>complete rear-end collision</strong>.</li>
-  <li>A <strong>severe accident with huge impact</strong> even if it is not a complete rear-end collision</li>
-  <li>A fatal accident(spin or crash) caused by any form of <strong>human intervention</strong>
+<h5 id="274-collision">2.7.4 Collision</h5>
+<ul>
+  <li>Track boundaries and static obstacles
     <ul>
-      <li>Physical interfere</li>
-      <li>Remote signal such as manual brake or drive</li>
+      <li>Restore the track and obstacles.</li>
+      <li>If the race can continue, it must continue without interruption.</li>
     </ul>
   </li>
-  <li>Accumulations of <strong>3 warnings</strong></li>
-</ol>
+  <li>Vehicle-to-vehicle
+    <ul>
+      <li><strong>Do not stop the race at the team’s discretion without the referees’ stop signal.</strong></li>
+      <li>If the at-fault vehicle is clear but no overtake has occurred, the race continues.</li>
+      <li>If the victim vehicle is clearly identified and the victim vehicle is unable to drive, the collision is severe, or the victim vehicle is overtaken, the race is stopped.</li>
+    </ul>
+  </li>
+</ul>
 
-<p><strong>Only one penalty</strong> will be applied per incident even if that involves <strong>multiple violations</strong></p>
+<h5 id="275-notes">2.7.5 Notes</h5>
+<ul>
+  <li><strong>Do not stop the race at the team’s discretion without the referees’ stop signal.</strong></li>
+  <li><strong>All computation must be performed on the vehicle.</strong></li>
+  <li><strong>Data must not be transmitted to the vehicle during normal driving.</strong></li>
+  <li><strong>Manual (human) emergency braking is strictly prohibited during normal driving.</strong></li>
+  <li>A vehicle that violates the Detection box regulation may not participate in the race.</li>
+  <li>There are two islands within the track area, and one island may have two people.
+    <ul>
+      <li>The island composition will be as follows: (Referees, Team Member in Team 1), (Referees, Team Member in Team 2)</li>
+    </ul>
+  </li>
+  <li>In side-by-side contact and incidents, if there is no clear at-fault party, the race will not be stopped.</li>
+</ul>
 
-<h5 id="274-warning-cases-in-head-to-head-race">2.7.4 Warning Cases in Head-to-Head Race</h5>
+<h4 id="28-common-notes-important">2.8 Common Notes (Important!!)</h4>
+<ul>
+  <li>If a collision makes driving difficult or dangerous, the vehicle must be emergency-stopped immediately.</li>
+  <li><strong>All computation must be performed on the vehicle.</strong></li>
+  <li><strong>Data must not be transmitted to the vehicle during normal driving.</strong></li>
+  <li><strong>Manual (human) emergency braking is strictly prohibited during normal driving.</strong></li>
+  <li>Each team may prepare multiple vehicles, but the only time more than one vehicle from the same team may be on the track is during mapping.</li>
+  <li>Sharing a single vehicle across multiple teams is strictly prohibited.</li>
+  <li>If two or more vehicles may be on the track, the Detection box must be attached. (e.g., it is not required during mapping or qualifying.)</li>
+  <li><strong>No objections regarding Wi-Fi will be accepted.</strong> Please ensure that your autonomous driving system is designed to operate independently of Wi-Fi conditions. While we will request that non-participating teams turn off Wi-Fi, this is solely to facilitate visualization and debugging for teams, not to improve algorithm performance.</li>
+  <li>All hardware repair and maintenance on the track (repairing damaged parts, sensor recalibration, battery replacement, etc.) is prohibited. (Not allowed even in the pit stop area.)</li>
+  <li>Dedicated times for <strong>mapping</strong>, <strong>official practice</strong>, and <strong>qualifying</strong> may vary depending on the number of participating teams.</li>
+  <li>Dedicated times for <strong>mapping</strong> and <strong>official practice</strong> are assigned on a <strong>first-come, first-served</strong> basis, and only teams that have <strong>successfully completed registration and inspection</strong> are eligible.</li>
+  <li>It is prohibited for people to be on the track. (Except during mapping time.)</li>
+  <li>Joystick <strong>use</strong> or <strong>pressing</strong> is <strong>not permitted</strong> during the race.
+    <ul>
+      <li>Please change the module for switching between autonomous driving and human control from a “press and hold” method to an “on/off” <strong>toggle</strong> method.</li>
+    </ul>
+  </li>
+  <li>Only one laptop may be connected for visualization (e.g., RViz) or debugging purposes.</li>
+  <li>If a vehicle is stopped too close to the obstacle ahead (opponent vehicle or static obstacle) such that an avoidance maneuver is impossible and space is needed, the referees may move it slightly backward upon request.</li>
+</ul>
 
-<ol>
-  <li><strong>Human intervention</strong> on the ego vehicle during the race</li>
-  <li><strong>Interference</strong> with the opponent vehicle during the race</li>
-  <li>Violation of <strong>remote signal regulations</strong> (joystick, keyboard, mouse)</li>
-  <li>When a <strong>fatal accident</strong> (spin or crash) occurs that does not <strong>correspond to a 1-lap penalty</strong></li>
-</ol>
+<h3 id="3-warnings-and-penalties">3. Warnings and Penalties</h3>
+<ul>
+  <li><strong>Decisions regarding incidents are at the discretion of the on-site referees and must be respected.</strong></li>
+  <li><strong>Even if an incident includes multiple violations, only one penalty is applied per incident.</strong></li>
+</ul>
 
-<p><strong>Only one warning</strong> will be applied per incident even if that involves <strong>multiple violations</strong></p>
+<!--
+## 3.1 Qualifying
+### 3.1.1 One-place Demotion
+- Using a keyboard or mouse during the race
+    - Keyboard/mouse use is prohibited even if no data transmission occurs
+    - Exception 1: When the vehicle is not on the track
+    - Exception 2: When the vehicle is in the pit stop zone
+    - Exception 3: When sending an initial guess for re-localization
+- Interfering with one's own vehicle through manual control (joystick, keyboard, or other device)
+    - Exception 1: When the referees declare a race stop and emergency stopping is required
+    - Exception 2: When transmitting the start signal at the start or restart
+    - Exception 3: When emergency stopping is required due to a collision rendering the vehicle inoperable
+    - Exception 4: Manual driving to enter the pit stop zone via the pit-stop manual driving zone
+    - Exception 5: When emergency stopping is required after being stuck on an obstacle for more than 5 seconds
+    - Exception 6: When emergency stopping is required to prevent abnormal driving (sudden acceleration, reverse driving, etc.)
+    - Exception 7: When the opponent vehicle seriously damages the track and the referees permit manual control
+    - Exception 8: When stopping after the end of qualifying
+- **During the race**, a person directly generates or selects a modified route based on obstacle positions
+-->
 
-<h6 id="example-cases">Example Cases:</h6>
+<h4 id="31-head-to-head-race">3.1 Head-to-Head Race</h4>
+<h5 id="311-additional-1-lap">3.1.1 Additional 1 Lap</h5>
+<ul>
+  <li>When three warnings have accumulated</li>
+  <li><strong>Critical human interference</strong> with the opponent’s vehicle during the race
+    <ul>
+      <li>When attempting to repair the track and physically contacting the opponent vehicle, affecting its driving</li>
+    </ul>
+  </li>
+  <li>When there is a clear at-fault and victim vehicle, and the victim vehicle becomes inoperable</li>
+  <li><strong>A severe-impact incident resulting from a complete rear-end collision</strong></li>
+  <li><strong>A severe-impact incident even if it is not a complete rear-end collision</strong></li>
+  <li>Using a keyboard or mouse during the race
+    <ul>
+      <li>Keyboard/mouse use is prohibited even if no data transmission occurs</li>
+      <li>Exception 1: When the vehicle is not on the track</li>
+      <li>Exception 2: When the vehicle is in the pit stop zone</li>
+      <li>Exception 3: When the vehicle has gone off the track, is placed back on the track, and an initial guess is sent for re-localization</li>
+    </ul>
+  </li>
+  <li>Interfering with one’s own vehicle through manual control (joystick, keyboard, or other device)
+    <ul>
+      <li>Exception 1: When the referees declare a race stop and emergency stopping is required</li>
+      <li>Exception 2: At start, restart, or after finish</li>
+      <li>Exception 3: When emergency stopping is required due to a collision rendering the vehicle inoperable</li>
+      <li>Exception 4: Manual driving to enter the pit stop zone via the pit-stop manual driving zone</li>
+      <li>Exception 5: When emergency stopping is required after being stuck on an obstacle for more than 5 seconds and switching to manual control</li>
+      <li>Exception 6: When emergency stopping is required to prevent abnormal driving (sudden acceleration, reverse driving, etc.)</li>
+    </ul>
+  </li>
+  <li><strong>During the race</strong>, a person directly generates or selects a modified route based on obstacle positions</li>
+</ul>
+
+<h5 id="322-one-warning">3.2.2 One Warning</h5>
+<ul>
+  <li>False start</li>
+  <li>Failure to actively restore the track</li>
+  <li>Completely passing through the pit stop zone in autonomous racing mode</li>
+  <li>Detection box not properly secured during the race
+    <ul>
+      <li>Exception 1: If corrected in the pit stop zone within one lap after the warning</li>
+      <li>A new warning may be issued if it is not properly corrected each lap</li>
+    </ul>
+  </li>
+  <li><strong>Intervention</strong> with one’s own vehicle during the race
+    <ul>
+      <li>Removing the vehicle from the track after a collision</li>
+      <li>Directly correcting the vehicle’s heading</li>
+    </ul>
+  </li>
+  <li><strong>Interference</strong> with the opponent’s vehicle during the race
+    <ul>
+      <li>When repairing the track and being detected by the opponent vehicle’s detection module, affecting its driving</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="323-example-cases">3.2.3 Example Cases</h5>
 <center>
 <img src="../images/rules/crash1.png" style="height: 18vw" />
 </center>
 <center>
 <img src="../images/rules/crash2.png" style="height: 18vw" />
 </center>
-
-<h5 id="275-evaluation">2.7.5 Evaluation</h5>
-
-<ol>
-  <li><strong>The first car to complete 20 laps is declared the winner.</strong></li>
-  <li><strong>Decisions regarding any incidents are at the sole discretion of the on-site referee and must be respected.</strong></li>
-</ol>
-
 
 									</section>
 
