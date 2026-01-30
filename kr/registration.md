@@ -21,7 +21,7 @@ base_url: registration.html
 
 <br>
 여기서의 등록과 함께, 팀은 대회에 참가하기 위해 [IFAC 2026](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG)에도 등록해야 합니다.
-모든 팀원은 IFAC에 등록해야 하며, 대회 전용 등록 옵션을 이용할 수 있습니다.<br>해당 등록비는 아래 표를 참조해 주시기 바랍니다.
+**모든 팀원은 IFAC에 등록해야 하며, 대회 전용 등록 옵션을 이용할 수 있습니다**.<br>해당 등록비는 아래 표를 참조해 주시기 바랍니다.
 
 | Early-Bird<br>(Feb. 1 – May 31, 2026) | Late<br>(Jun. 1 – Aug. 9, 2026) | On-Site<br>(Aug. 22 –28, 2026) |
 ||:---|:---|:---|
