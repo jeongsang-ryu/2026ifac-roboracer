@@ -128,3 +128,8 @@ base_url: registration.html
 | Yonam_Mobility | 연암공과대학교 | 이승욱, 신지섭, 심영진, 이준혁, 기재현 |
 | Yonam | 연암공과대학교 | 권준서, 김현준, 나형도, 박승원, 이차원 |  -->
 
+<br>
+<br>
+<center>
+<img src="../images/ifac_roboracer_poster.png" style="width: 600px; max-width: 100%;" />
+</center>

@@ -96,3 +96,8 @@ If you have registered for participation but the list below is not updated, plea
 |PNU-1|Pusan National University|Bugeon Kim, Donghyun Koo, Hyunseop Shim|
 |머리핑|Dong-a University|Namhyeon Kim, Suil Yoon, Yutaek Jin, Seungwoo Ha|
 -->
+<br>
+<br>
+<center>
+<img src="../images/ifac_roboracer_poster.png" style="width: 600px; max-width: 100%;" />
+</center>
