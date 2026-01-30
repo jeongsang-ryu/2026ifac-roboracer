@@ -18,7 +18,7 @@ ROBORACER Grand Prix is a competition organized by an international community of
 </center> -->
 
 <center>
-  <div style="position: relative; width: 35vw;">
+  <div style="position: relative; width: 1280px; max-width: 100%;">
     <video id="loopVideo" autoplay loop muted playsinline style="width: 100%;">
       <source src="../images/roboracer.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -64,6 +64,7 @@ In-person competition: This variant targets participants who will travel to Busa
 <br>
 <br>
 <center>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <h3>Previous Competition Video</h3>
+  <iframe width="1280" height="720" style="max-width: 100%;" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 <br>

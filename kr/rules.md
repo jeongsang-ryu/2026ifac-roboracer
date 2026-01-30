@@ -99,7 +99,7 @@ h2, h3, h4, h5, h6 {
 
 대회는 부산 BEXCO에서 열립니다. 트랙이 건설될 환경의 특징은 다음과 같습니다:
 <center>
-<img src="../images/environment/bexco_hall_1.jpg"  style="width: 17vw" />
+<img src="../images/environment/bexco_hall_1.jpg"  style="width: 25vw" />
 </center>
  트랙이 설치되는 [BEXCO 제1전시장](https://www.bexco.co.kr/eng/CMS/Contents/Contents.do?mCode=MN039) 바닥은 경화 콘크리트(Hardened Concrete) 기반에 우레탄 코팅 마감이 되어 있습니다. 이 표면은 일반적인 아스팔트 포장 대비 마찰 계수가 현저히 낮고 표면이 매끄러운 것이 특징입니다.
  
@@ -156,10 +156,10 @@ h2, h3, h4, h5, h6 {
 - 피트스톱 존에서 일반 주행영역으로 탈출하는 차량은 일반 주행영역에 있는 차량을 보호해야할 의무가 있습니다.
 
 ## 2.6 예선 (미션 수행, 타임 트라이얼)
-<center>
-<img src="../images/rules/qualification.png"  style="width: 20vw" /> <!--수정 필요-->
-</center>
-
+<!-- <center>
+<img src="../images/rules/qualification.png"  style="width: 20vw" /> 
+</center> -->
+<!--수정 필요-->
 ### 2.6.1 일반
 - 연습과 예선 모두 동일한 트랙을 사용합니다.
 - 예선의 모든 단계는 **8분 내**에 이루어져야 합니다. 
@@ -178,22 +178,34 @@ h2, h3, h4, h5, h6 {
     - Q1까지 반복.
 
 #### 2.6.1.1 예선 경기 예시
-| 순위 | Q4(Fully Autonomous) | Q3(fastest lap) | Q2(완주바퀴) | Q1(완주바퀴) |
-| --- | --- | --- | --- | --- |
-| 1 | O | 10.8 s | 3 | 2 |
-| 2 | O | 11.2 s | 3 | 2 |
-| 3 | O | 13.0 s | 3 | 2 |
-| 4 | X | 9.9 s | 3 | 2 |
-| 5 | X | 10.1 s | 3 | 2 |
-| 6 | X | 12.2 s | 3 | 2 |
-| 7 | X | 13.2 s | 3 | 2 |
-| 8 | X | - | 2 | 2 |
-| 8 | X | - | 2 | 2 |
-| 10 | X | - | 1 | 2 |
-| 11 | X | - | 0 | 2 |
-| 12 | X | - | 0 | 1 |
-| 13 | X | - | 0 | 0 |
-| 13 | X | - | 0 | 0 |
+
+<table>
+  <thead>
+    <tr>
+      <th>순위</th>
+      <th>Q4(Fully Autonomous)</th>
+      <th>Q3(fastest lap)</th>
+      <th>Q2(완주바퀴)</th>
+      <th>Q1(완주바퀴)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>O</td><td>10.8 s</td><td>3</td><td>2</td></tr>
+    <tr><td>2</td><td>O</td><td>11.2 s</td><td>3</td><td>2</td></tr>
+    <tr><td>3</td><td>O</td><td>13.0 s</td><td>3</td><td>2</td></tr>
+    <tr><td>4</td><td>X</td><td>9.9 s</td><td>3</td><td>2</td></tr>
+    <tr><td>5</td><td>X</td><td>10.1 s</td><td>3</td><td>2</td></tr>
+    <tr><td>6</td><td>X</td><td>12.2 s</td><td>3</td><td>2</td></tr>
+    <tr><td>7</td><td>X</td><td>13.2 s</td><td>3</td><td>2</td></tr>
+    <tr><td>8</td><td>X</td><td>-</td><td>2</td><td>2</td></tr>
+    <tr><td>8</td><td>X</td><td>-</td><td>2</td><td>2</td></tr>
+    <tr><td>10</td><td>X</td><td>-</td><td>1</td><td>2</td></tr>
+    <tr><td>11</td><td>X</td><td>-</td><td>0</td><td>2</td></tr>
+    <tr><td>12</td><td>X</td><td>-</td><td>0</td><td>1</td></tr>
+    <tr><td>13</td><td>X</td><td>-</td><td>0</td><td>0</td></tr>
+    <tr><td>13</td><td>X</td><td>-</td><td>0</td><td>0</td></tr>
+  </tbody>
+</table>
 
 ### 2.6.2 예선 1 (Q1)
 - 예선 1은 **충돌 없이** 트랙을 **2바퀴** 완주하는 것을 목표로 합니다.
@@ -223,10 +235,10 @@ h2, h3, h4, h5, h6 {
     - 완벽한 달성을 위해서 아래와 같은 포즈는 취하면 좋습니다.
 
 <center>
-<img src="../images/rules/ex_joy.png"  style="width: 13vw" />  
-</center>
-<center>
-<img src="../images/rules/ex_laptop.png"  style="width: 13vw" /> 
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <img src="../images/rules/ex_joy.png" style="width: 400px; max-width: 45%;" />
+  <img src="../images/rules/ex_laptop.png" style="width: 400px; max-width: 45%;" />
+</div>
 </center>
 
 
@@ -254,10 +266,10 @@ h2, h3, h4, h5, h6 {
     - 사람은 다음과 같은 구성으로 섬이 있을 것 입니다. (심판1, 팀원1 in 팀1), (심판2, 팀원2 in 팀1)
 
 ## 2.7 일대일 경주
-<center>
-<img src="../images/rules/head_to_head.png"  style="width: 13vw" /> <!--수정 필요-->
-</center>
-
+<!-- <center>
+<img src="../images/rules/head_to_head.png"  style="width: 13vw" /> 
+</center> -->
+<!--수정 필요-->
 ### 2.7.1 일반
 - 두 차량은 반대 방향에 위치한 서로 다른 출발선에서 시작합니다.
 - 총 3 개의 정적 장애물이 사용됩니다. 모든 팀이 경주 준비를 완료한 후 참가 팀이 각각 한 개의 장애물을 설치하며, 심판이 다른 하나의 장애물을 설치합니다.

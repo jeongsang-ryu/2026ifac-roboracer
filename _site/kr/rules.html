@@ -131,7 +131,7 @@ h2, h3, h4, h5, h6 {
 <ul id="markdown-toc">
   <li><a href="#1-개요" id="markdown-toc-1-개요">1. 개요</a></li>
   <li><a href="#2-대회-일반" id="markdown-toc-2-대회-일반">2. 대회 일반</a>    <ul>
-      <li><a href="#20-비디오-제출" id="markdown-toc-20-비디오-제출">2.0 비디오 제출</a></li>
+      <li><a href="#20-기술-자료-제출" id="markdown-toc-20-기술-자료-제출">2.0 기술 자료 제출</a></li>
       <li><a href="#21-차량-클래스" id="markdown-toc-21-차량-클래스">2.1 차량 클래스</a></li>
       <li><a href="#22-트랙-및-경주-환경" id="markdown-toc-22-트랙-및-경주-환경">2.2 트랙 및 경주 환경</a></li>
       <li><a href="#23-검사" id="markdown-toc-23-검사">2.3 검사</a></li>
@@ -147,7 +147,10 @@ h2, h3, h4, h5, h6 {
         </ul>
       </li>
       <li><a href="#26-예선-미션-수행-타임-트라이얼" id="markdown-toc-26-예선-미션-수행-타임-트라이얼">2.6 예선 (미션 수행, 타임 트라이얼)</a>        <ul>
-          <li><a href="#261-일반" id="markdown-toc-261-일반">2.6.1 일반</a></li>
+          <li><a href="#261-일반" id="markdown-toc-261-일반">2.6.1 일반</a>            <ul>
+              <li><a href="#2611-예선-경기-예시" id="markdown-toc-2611-예선-경기-예시">2.6.1.1 예선 경기 예시</a></li>
+            </ul>
+          </li>
           <li><a href="#262-예선-1-q1" id="markdown-toc-262-예선-1-q1">2.6.2 예선 1 (Q1)</a></li>
           <li><a href="#263-예선-2-q2" id="markdown-toc-263-예선-2-q2">2.6.3 예선 2 (Q2)</a></li>
           <li><a href="#264-예선-3-q3" id="markdown-toc-264-예선-3-q3">2.6.4 예선 3 (Q3)</a></li>
@@ -212,7 +215,7 @@ h2, h3, h4, h5, h6 {
   <li>향후 ROBORACER 대회의 품질을 향상시키기 위해, 각 경주의 우승자는 자신의 알고리즘 코드를 Github의 <a href="https://github.com/f1tenth">ROBORACER Autonomous Racing Community repository</a>에 오픈소스 라이선스로 공개하는 것이 권장됩니다.</li>
 </ol>
 
-<h4 id="20-비디오-제출">2.0 비디오 제출</h4>
+<h4 id="20-기술-자료-제출">2.0 기술 자료 제출</h4>
 
 <ol>
   <li>
@@ -243,8 +246,7 @@ h2, h3, h4, h5, h6 {
   <li><em>메인 컴퓨팅 유닛</em>:
  사양에 <strong>제한 없음</strong>. 한개의 컴퓨닝 유닛만 사용 가능합니다.</li>
   <li><em>라이다</em>:
- 사양에 <strong>제한 없음</strong>. 한개의 라이다 센서만 사용 가능합니다. 특히 이번에는 <strong>3D LiDAR</strong> 가 허용이 됩니다.<br />
- (단, 고가의 3D 라이다는 고속 경주에서 손상될 수 있음을 유의하시기 바랍니다).</li>
+ 사양에 <strong>제한 없음</strong>. 한개의 라이다 센서만 사용 가능합니다. <strong>3D LiDAR</strong> 도 허용됩니다.</li>
   <li><em>카메라</em>:
  <strong>단일 카메라</strong>(예: Logitech C270, Logitech C920, Raspberry Pi Camera Module V2, Arducam)와 <strong>스테레오 카메라</strong>(예: Intel Realsense, ZED) 모두 허용됩니다. <strong>검출이나 VIO 결과</strong> 등의 추가 정보를 카메라 내부 처리에서 제공하는 카메라는 <strong>허용되지 않습니다</strong>. (깊이 정보는 허용됨)</li>
   <li><em>모터</em>:
@@ -262,8 +264,10 @@ h2, h3, h4, h5, h6 {
 <h4 id="22-트랙-및-경주-환경">2.2 트랙 및 경주 환경</h4>
 
 <p>대회는 부산 BEXCO에서 열립니다. 트랙이 건설될 환경의 특징은 다음과 같습니다:</p>
-
-<p>TBA</p>
+<center>
+<img src="../images/environment/bexco_hall_1.jpg" style="width: 25vw" />
+</center>
+<p>트랙이 설치되는 <a href="https://www.bexco.co.kr/eng/CMS/Contents/Contents.do?mCode=MN039">BEXCO 제1전시장</a> 바닥은 경화 콘크리트(Hardened Concrete) 기반에 우레탄 코팅 마감이 되어 있습니다. 이 표면은 일반적인 아스팔트 포장 대비 마찰 계수가 현저히 낮고 표면이 매끄러운 것이 특징입니다.</p>
 
 <h4 id="23-검사">2.3 검사</h4>
 
@@ -303,7 +307,6 @@ h2, h3, h4, h5, h6 {
 
 <h5 id="242-연습">2.4.2 연습</h5>
 <ul>
-  <li><strong>공식 연습</strong>과 <strong>자유 연습</strong> 으로 구성 됩니다.</li>
   <li>각 팀은 여러대의 차량을 준비할 수 있지만 트랙 위에는 팀 당 한대의 차량만 존재해야 합니다.</li>
   <li>샘플 장애물을 제공합니다.</li>
   <li>연습 중에 일어난 사고에 대해서 책임을 묻지 않습니다.</li>
@@ -319,10 +322,10 @@ h2, h3, h4, h5, h6 {
 <ul>
   <li>이 구역은 <strong>차량을 트랙에서 제거하지 않고</strong> 매개변수를 조정 위해 지정된 구역입니다.</li>
   <li>이 구역은 예선 및 일대일 경주에서 모두 사용가능 합니다.</li>
-  <li>차량이 <strong>피트스톱 존</strong>에 있으면, 재위치 설정 및 매개변수 업데이트를 위해 컴퓨터(마우스와 키보드)를 사용할 수 있습니다.</li>
+  <li>차량이 피트스톱 존에 있으면, 페널티 없이 차량 하드웨어 수리 및 파라미터 튜닝이 가능합니다.</li>
   <li>이 구역에서는 일반적인 트랙과 마찬가지로 사람이 서있는 것은 금지됩니다.</li>
   <li>추가적으로, 이 구역으로 안전하게 진입 후에 수리를 위해 차량을 섬으로 빼는 것은 경고에 해당하지 않는 상황입니다.</li>
-  <li>자율 레이싱 상황 모드에서 이 구역을 사용하는 것은 금지됩니다.</li>
+  <li>자율 레이싱 상황에서 이 구역을 완전히 침범하는 것은 페널티 대상입니다.</li>
 </ul>
 
 <h5 id="251-진입">2.5.1 진입</h5>
@@ -338,10 +341,10 @@ h2, h3, h4, h5, h6 {
 </ul>
 
 <h4 id="26-예선-미션-수행-타임-트라이얼">2.6 예선 (미션 수행, 타임 트라이얼)</h4>
-<center>
-<img src="../images/rules/qualification.png" style="width: 20vw" /> <!--수정 필요-->
-</center>
-
+<!-- <center>
+<img src="../images/rules/qualification.png"  style="width: 20vw" /> 
+</center> -->
+<!--수정 필요-->
 <h5 id="261-일반">2.6.1 일반</h5>
 <ul>
   <li>연습과 예선 모두 동일한 트랙을 사용합니다.</li>
@@ -370,6 +373,36 @@ h2, h3, h4, h5, h6 {
   </li>
 </ul>
 
+<h6 id="2611-예선-경기-예시">2.6.1.1 예선 경기 예시</h6>
+
+<table>
+  <thead>
+    <tr>
+      <th>순위</th>
+      <th>Q4(Fully Autonomous)</th>
+      <th>Q3(fastest lap)</th>
+      <th>Q2(완주바퀴)</th>
+      <th>Q1(완주바퀴)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>O</td><td>10.8 s</td><td>3</td><td>2</td></tr>
+    <tr><td>2</td><td>O</td><td>11.2 s</td><td>3</td><td>2</td></tr>
+    <tr><td>3</td><td>O</td><td>13.0 s</td><td>3</td><td>2</td></tr>
+    <tr><td>4</td><td>X</td><td>9.9 s</td><td>3</td><td>2</td></tr>
+    <tr><td>5</td><td>X</td><td>10.1 s</td><td>3</td><td>2</td></tr>
+    <tr><td>6</td><td>X</td><td>12.2 s</td><td>3</td><td>2</td></tr>
+    <tr><td>7</td><td>X</td><td>13.2 s</td><td>3</td><td>2</td></tr>
+    <tr><td>8</td><td>X</td><td>-</td><td>2</td><td>2</td></tr>
+    <tr><td>8</td><td>X</td><td>-</td><td>2</td><td>2</td></tr>
+    <tr><td>10</td><td>X</td><td>-</td><td>1</td><td>2</td></tr>
+    <tr><td>11</td><td>X</td><td>-</td><td>0</td><td>2</td></tr>
+    <tr><td>12</td><td>X</td><td>-</td><td>0</td><td>1</td></tr>
+    <tr><td>13</td><td>X</td><td>-</td><td>0</td><td>0</td></tr>
+    <tr><td>13</td><td>X</td><td>-</td><td>0</td><td>0</td></tr>
+  </tbody>
+</table>
+
 <h5 id="262-예선-1-q1">2.6.2 예선 1 (Q1)</h5>
 <ul>
   <li>예선 1은 <strong>충돌 없이</strong> 트랙을 <strong>2바퀴</strong> 완주하는 것을 목표로 합니다.</li>
@@ -382,7 +415,7 @@ h2, h3, h4, h5, h6 {
   <li>예선 2는 <strong>랜덤 장애물</strong>에 대해 <strong>충돌 없이</strong> <strong>3바퀴</strong> 완주하는 것을 목표로 합니다.</li>
   <li>예선 2의 랜덤 장애물은 심판이 배치하며, 총 <strong>2개</strong>가 배치됩니다. 장애물의 위치는 사전에 공지되지 않습니다.</li>
   <li>예선 2를 통과하지 못한 차량은 트랙을 충돌없이 몇 바퀴 완주하였는가로 순위가 정해집니다.</li>
-  <li>예선 2를 통과한 차량은 예선 2로 넘어가게 됩니다.</li>
+  <li>예선 2를 통과한 차량은 예선 3로 넘어가게 됩니다.</li>
 </ul>
 
 <h5 id="264-예선-3-q3">2.6.4 예선 3 (Q3)</h5>
@@ -403,12 +436,20 @@ h2, h3, h4, h5, h6 {
   <li>달성 조건의 직간접적 영향은 다음과 같습니다.
     <ul>
       <li>차량에 손을 대는 행위</li>
-      <li>조이를 조작하는 행위</li>
+      <li>조이스틱을 조작하는 행위</li>
       <li>키보드/마우스에 손을 대는 행위</li>
       <li>컴퓨터를 조작하는 행위</li>
+      <li>완벽한 달성을 위해서 아래와 같은 포즈는 취하면 좋습니다.</li>
     </ul>
   </li>
 </ul>
+
+<center>
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <img src="../images/rules/ex_joy.png" style="width: 400px; max-width: 45%;" />
+  <img src="../images/rules/ex_laptop.png" style="width: 400px; max-width: 45%;" />
+</div>
+</center>
 
 <h5 id="266-정적-장애물">2.6.6 정적 장애물</h5>
 <ul>
@@ -443,10 +484,10 @@ h2, h3, h4, h5, h6 {
 </ul>
 
 <h4 id="27-일대일-경주">2.7 일대일 경주</h4>
-<center>
-<img src="../images/rules/head_to_head.png" style="width: 13vw" /> <!--수정 필요-->
-</center>
-
+<!-- <center>
+<img src="../images/rules/head_to_head.png"  style="width: 13vw" /> 
+</center> -->
+<!--수정 필요-->
 <h5 id="271-일반">2.7.1 일반</h5>
 <ul>
   <li>두 차량은 반대 방향에 위치한 서로 다른 출발선에서 시작합니다.</li>
@@ -457,7 +498,8 @@ h2, h3, h4, h5, h6 {
 
 <h5 id="272-목표">2.7.2 목표</h5>
 <ul>
-  <li>먼저 20바퀴를 완주하기.</li>
+  <li>먼저 20바퀴를 완주하기.
+8강 이전 경기는 10바퀴로 수정이 될 수 있습니다.</li>
 </ul>
 
 <h5 id="273-무작위-정적-장애물">2.7.3 무작위 정적 장애물</h5>

@@ -64,6 +64,7 @@ IFAC 2026는 대면 경쟁으로 대회를 진행합니다.
 <br>
 <br>
 <center>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <h3>이전 대회 영상</h3>
+  <iframe style="width: 35vw; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 <br>
