@@ -60,4 +60,9 @@ In-person competition: This variant targets participants who will travel to Busa
 <center>
 <a href="#" class="image main"><img src="../images/F1TENTH/f1tenth_korea_logo.jpg"  style="width: 35vw" alt="" /></a>
 </center> -->
-
+<br>
+<br>
+<center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+<br>

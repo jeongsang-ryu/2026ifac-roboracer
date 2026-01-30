@@ -50,7 +50,7 @@ IFAC 2026 will be held as an in-person competition.
 <br>
 <br>
 In-person competition: This variant targets participants who will travel to Busan, Republic of Korea. Each team will bring their own physical ROBORACER car with their software. The organizers provide the race setup (rules, submissions, guidelines), the track, related infrastructure and organize the race itself.
-<br>
+
 
 
 <!-- <br>
@@ -61,4 +61,9 @@ In-person competition: This variant targets participants who will travel to Busa
 <center>
 <a href="#" class="image main"><img src="../images/F1TENTH/ROBORACER_korea_logo.jpg"  style="width: 35vw" alt="" /></a>
 </center> -->
-
+<br>
+<br>
+<center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+<br>
