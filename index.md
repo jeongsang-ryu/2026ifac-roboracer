@@ -16,6 +16,14 @@ ROBORACER Grand Prix is a competition organized by an international community of
 <center>
 <a href="#" class="image main"><img src="../images/roboracer.gif"  style="width: 35vw" alt="" /></a>
 </center> -->
+
+<center>
+  <h3>Previous Competition Video</h3>
+  <iframe width="1280" height="720" style="max-width: 100%;" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+<br>
+<br>
+
 <center>
   <div style="position: relative; width: 35vw;">
     <video id="loopVideo" autoplay loop muted playsinline style="width: 100%;">
@@ -60,10 +68,4 @@ In-person competition: This variant targets participants who will travel to Busa
 <center>
 <a href="#" class="image main"><img src="../images/F1TENTH/f1tenth_korea_logo.jpg"  style="width: 35vw" alt="" /></a>
 </center> -->
-<br>
-<br>
-<center>
-  <h3>Previous Competition Video</h3>
-  <iframe style="width: 35vw; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 <br>

@@ -19,6 +19,14 @@ ROBORACER Grand Prix는 연구원, 엔지니어 및 자율 시스템 엔지니�
 </center> -->
 
 <center>
+  <h3>이전 대회 영상</h3>
+  <iframe width="1280" height="720" style="max-width: 100%;" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+<br>
+<br>
+
+
+<center>
   <div style="position: relative; width: 35vw;">
     <video id="loopVideo" autoplay loop muted playsinline style="width: 100%;">
       <source src="../images/roboracer.mp4" type="video/mp4">
@@ -61,10 +69,4 @@ IFAC 2026는 대면 경쟁으로 대회를 진행합니다.
 <center>
 <a href="#" class="image main"><img src="../images/F1TENTH/f1tenth_korea_logo.jpg"  style="width: 35vw" alt="" /></a>
 </center> -->
-<br>
-<br>
-<center>
-  <h3>이전 대회 영상</h3>
-  <iframe style="width: 35vw; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/tnn4isfdUCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</center>
 <br>
