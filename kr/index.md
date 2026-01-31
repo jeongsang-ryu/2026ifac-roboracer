@@ -27,7 +27,7 @@ ROBORACER Grand Prix는 연구원, 엔지니어 및 자율 시스템 엔지니�
 
 
 <center>
-  <div style="position: relative; width: 35vw;">
+  <div style="position: relative; width: 24.5vw;">
     <video id="loopVideo" autoplay loop muted playsinline style="width: 100%;">
       <source src="../images/roboracer.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -37,6 +37,7 @@ ROBORACER Grand Prix는 연구원, 엔지니어 및 자율 시스템 엔지니�
                 background: black; opacity: 0; transition: opacity 0.5s;"></div>
   </div>
 </center>
+
 
 <script>
   const video = document.getElementById("loopVideo");

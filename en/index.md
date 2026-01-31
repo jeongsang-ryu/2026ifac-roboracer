@@ -25,7 +25,7 @@ ROBORACER Grand Prix is a competition organized by an international community of
 <br>
 
 <center>
-  <div style="position: relative; width: 1280px; max-width: 100%;">
+  <div style="position: relative; width: 24.5vw;">
     <video id="loopVideo" autoplay loop muted playsinline style="width: 100%;">
       <source src="../images/roboracer.mp4" type="video/mp4">
       Your browser does not support the video tag.
