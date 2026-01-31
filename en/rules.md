@@ -163,16 +163,16 @@ The floor of [BEXCO Exhibition Hall 1](https://www.bexco.co.kr/eng/CMS/Contents/
 - Practice and qualifying use the same track.
 - All stages of qualifying must be completed **within 8 minutes**.
     - This may change depending on the total number of participating teams.
-- Qualifying consists of **three missions** and **one achievement condition**, referred to as Q1, Q2, Q3, and Q4 in order.
+- Qualifying consists of **three missions** (**Q1, Q2, Q3**) and **one achievement condition** called **Fully Autonomous**.
 - Q1 through Q3 are conducted sequentially and may not be skipped.
 - Final ranking in qualifying is determined in the following order:
-    - Completion of Q4
+    - Fully Autonomous satisfaction
     - Number of qualifying rounds passed
     - Record of the most recently completed qualifying round
 - An example of final ranking determination is as follows:
     - Assume there are 12 teams in total.
-    - Assume that 3 teams pass each of Q1, Q2, Q3, and Q4.
-    - Among teams that pass Q4, assign places 1 through 3 in order of Q3 record.
+    - Assume that 3 teams pass each of Q1, Q2, Q3, and 3 teams satisfy Fully Autonomous.
+    - Among teams that satisfy Fully Autonomous, assign places 1 through 3 in order of Q3 record.
     - Among teams that pass Q3, assign places 4 through 6 in order of Q3 record.
     - Repeat in the same manner down to Q1.
 
@@ -182,7 +182,7 @@ The floor of [BEXCO Exhibition Hall 1](https://www.bexco.co.kr/eng/CMS/Contents/
   <thead>
     <tr>
       <th>Rank</th>
-      <th>Q4 (Fully Autonomous)</th>
+      <th>Fully Autonomous</th>
       <th>Q3 (fastest lap)</th>
       <th>Q2 (laps completed)</th>
       <th>Q1 (laps completed)</th>
@@ -221,8 +221,7 @@ The floor of [BEXCO Exhibition Hall 1](https://www.bexco.co.kr/eng/CMS/Contents/
 - The objective of Q3 is to achieve the **minimum lap time** over two minutes on a track without obstacles.
 - The shortest lap time during the two minutes is used as the record.
 
-### 2.6.5 Qualifying 4 (Q4)
-- Q4 is an achievement condition.
+### 2.6.5 Fully Autonomous (Achievement Condition)
 - The achievement condition applies at all moments during qualifying.
 - The achievement condition is as follows:
     - **Teams that do not directly or indirectly affect the vehicle throughout the entire qualifying process**
